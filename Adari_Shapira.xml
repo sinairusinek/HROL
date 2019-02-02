@@ -36,19 +36,40 @@
             <unclear>משש</unclear></p>
       </front>
       <body>
-         <opener> לכבוד <persName>מר י. שפירא</persName> יועץ המשפטי במדינת ישראל <salute>ח. י.
-            </salute>
+         <opener> <salute>
+            
+         לכבוד </salute><persName><roleName type="honorific"
+            >מר</roleName><forename><abbr> י.
+            </abbr></forename><surname>שפירא</surname></persName>
+            <roleName type="office">יועץ המשפטי במדינת ישראל</roleName>
+            
+            <choice>
+               <abbr>ח. י.</abbr>
+               <expan>חבר יקר</expan>
+            </choice>
+            
          </opener>
-         <p> באקדמיה ללשון העברי של ילדי ביתי הספר בארצנו ״התעשרה״ שפתנו במלה: ״התחרבנתי״ ואת
+         <p> באקדמיה ללשון העברי של ילדי  <choice>
+            <sic>ביתי</sic>
+            <corr>בתי</corr>
+         </choice> הספר בארצנו ״התעשרה״ שפתנו במלה: ״התחרבנתי״ ואת
             הסגולות של מלה זו הרגשתי כאשר יוצאתי מחדרך ב <date>30/6/48</date> והרגשה זו מלוה אותי
             עוד. אני מבקשת את סליחתך ורוצה עוד לתקן מה שניתן לתיקון. הרי אני מצהירה לפניך, שפניתי
             אליך לא רק מפני זה שהמעונינת היא אדם קרוב לו. ״פניה״ מעין זה - ״<unclear>בשם
                עדי</unclear>״ של הלשכה המשפטית בעיניני אישות, ע״י התאחדות נשים לשווי זכויות. נאלצנו
             ליצור <unclear>ולאיחוד</unclear> בשם זה מתוך מציאות מרה של חוסר הגנה הוגנת על האשה
-            הנשואה בארצנו. אני מצרפת פה את מאמרי ב״<orgName>דבר הפועלת</orgName>״ מ
+            הנשואה בארצנו. אני מצרפת פה את מאמרי ב״<orgName type="newspaper">דבר הפועלת</orgName>״ מ
                <date>11/4/48</date> אולי ממנו תבין איך ולמה הגעתי אליך... ותסלח לי. אני מודה לך מקרב
             הלב בעד קבלת פנים החברית </p>
-         <closer><salute> בב״ח </salute><signed>ש. אדרי</signed></closer>
+         <closer>
+            <salute> אני מודה לך מקרב הלב בעד קבלת פנים החברית <choice>
+               <abbr>בב״ח </abbr>
+               <expan>בברכת חברים</expan>
+            </choice></salute>
+            <signed><persName>
+               <forename><abbr>ש.</abbr></forename>
+               <surname>אדרי</surname></persName></signed>
+         </closer>
       </body>
    </text>
 </TEI>
