@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">00071706.81.D1.C9.B1_duplicated</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>tranScriptorium</publisher>
+            </publicationStmt>
+            <sourceDesc><bibl></bibl>
+                <bibl><publisher>TRP document creator:
+                    sinai.rusinek@mail.huji.ac.il</publisher></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+           
+           
+<dateline>               <date> 9.II.51</date>
+    ת״א. רח׳ ארנון 15 
+</dateline>
+            <salute>                לחבר <persName>בן צבי</persName> שלום וברכה
+            </salute>   <p>
+                
+                    אנא סלח לי שאני באה להטרידך. שמעתי (אינני זוכרת ממי) שבהיותך לפני
+                כשנה ב<placeName>אנגליה</placeName> נפגשת עם פרופ. <persName>פאול קאהלה</persName>. אני מתכוננת לנסוע ל<placeName>לונדון</placeName> בסוף
+                חודש זה והייתי מאד רוצה לראותו (הוא היה מורי ב<placeName>בון</placeName> ובמשך שנים רבות שמרנו על
+                יחסי ידידות). המכתב האחרון שקיבלתי מ<persName>קאהלה</persName> הוא מלפני שלוש שנים ועליו כתובת
+                אוכספורדית, וכש ולאחר שכתבתי לו על פי הכתובת הזאת הוחזר לי מכתבי, כי הוא
+                לא נמצא שם עוד. אולי ידוע לי שב<persName>לונדון</persName> החליף את מענו לפני כמה שנים. אני
+                רציתי לכתוב לו לפני בואי ואם ישנה לך כתבתו הייתי מודה לך מאד לו הואלת
+              
+             
+             בטובך לשלחה לי, אם אין דבר זה לטורח יתר לך, כמובן. הרבה ברכות וסליחה ותודה
+            </p>
+              <signed>  לאה גולדברג</signed>
+          
+           
+        </body>
+    </text>
+</TEI>

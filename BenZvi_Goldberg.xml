@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc><profileDesc><correspDesc>
+         <correspAction type="sent">
+            <persName ref="https://viaf.org/viaf/71499998">יצחק בן צבי</persName>
+            <settlement>unknown</settlement>
+            <date when="1951-02-12">ו׳ אדר א׳ תשי׳א 12 בפברואר 1951</date>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="https://viaf.org/viaf/12434988">לאה גולדברג</persName>
+            <settlement>תל אביב</settlement>
+         </correspAction>         
+      </correspDesc></profileDesc>
+  </teiHeader>
+  <text><body>
+     <dateline><date>
+        ו׳ אדר א׳ תשי׳א 12 בפברואר 1951</date>
+        <name type="address">רחוב
+           ארנון 15 תל-אביב</name> 
+        <salute>לכבוד הגב׳ לאה גולדבר </salute>
+     </dateline>
+     <salute>ח.נ.</salute>
+   
+        <p> אשמח מאד אם בהיותך
+            ב<placeName>לונדון</placeName> תמסרי דרישת-שלום ממני לפרופ׳
+               <persName>קאהלה</persName>. נשארו לי זכרונות נעימים מפגישתי האחרונה בביתו בלונדון,
+            לפני שנים אחדות, אולם מאז לא עמדתי אתו בכתובים, ולצערי אינני יודע מה
+            כתובתו. מכל מקום, אני מצרף לך בזה את הכתובת של הפרופ׳ <persName>ססיל
+               רות</persName>, שבודאי יודע את מקומו ואת כתובתו. אם תראי את הפרופ׳ <persName>רות</persName>
+            תואילי-נא ג׳כ למסור לו דרישת שלום חמה ממני. הפרופ׳
+            <persName>קאהלה</persName> הוא אחד מחסידי אומות העולם, שהגן על היהודים בזמן
+            הנאצים וגם בעצמו סבל מידם והיה מוכרח לעקור מ<placeName>גרמניה</placeName> בגלל הרדיפות. מתוך
+            ספריו ומתוך המגע אתו נוכתתי שהוא ידיד ישראל והוא הגרמני היחידי שיש לי עסק אתו.
+     
+          </p><salute>בברכת חבר </salute><signed>י. בן צבי</signed></body>
+  </text>
+</TEI>
