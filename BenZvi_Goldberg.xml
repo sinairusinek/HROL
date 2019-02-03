@@ -27,18 +27,22 @@
       </correspDesc></profileDesc>
   </teiHeader>
   <text><body>
-     <dateline><date when="1951-12-02">
-        ו׳ אדר א׳ תשי׳א 12 בפברואר 1951</date>
-        <name type="address">רחוב
-           ארנון 15 תל-אביב</name> </dateline>
-  <opener>      <salute>לכבוד הגב׳ לאה גולדבר </salute>
+     <dateline ><date when="1951-12-02" rend="center" >
+        <lb/>ו׳ אדר א׳ תשי׳א
+        <lb/>12 בפברואר 1951</date> </dateline>
+     
+        <opener>  
+       <lb/>    <salute>לכבוד ה<persName><roleName type="honorific">גב׳</roleName> <forename>לאה</forename> <surname><choice><corr>גולדברג</corr><sic>גולדבר</sic></choice></surname></persName> </salute>
+     <name type="address" rend="right">רחוב
+        ארנון 15 
+        <lb/>תל-אביב</name></opener>
      
      <salute><choice><abbr>ח.נ.</abbr><expan>חברה נכבדה</expan></choice></salute>
-  </opener> 
+   
         <p><lb/> אשמח מאד אם בהיותך
             ב<placeName>לונדון</placeName> תמסרי 
-           <lb/>דרישת-שלום ממני לפרופ׳
-               <persName>קאהלה</persName>. נשארו לי זכרונות 
+           <lb/>דרישת-שלום ממני ל<persName><roleName type="honorific">פרופ׳</roleName>
+               <surname>קאהלה</surname></persName>. נשארו לי זכרונות 
            <lb/>נעימים מפגישתי האחרונה בביתו בלונדון,
             לפני 
             <lb/>שנים אחדות, אולם מאז לא עמדתי אתו בכתובים, 
