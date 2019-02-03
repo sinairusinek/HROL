@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>מכתב מעו״ד ש. אדרי לי. שפירא 7.1/1949</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -15,6 +15,7 @@
          <sourceDesc>
             <p> 56724 תיק מארכיון המדינה, משרד המשפטים ג (משרדי הממשלה) 56724 תיק מארכיון המדינה,
                משרד המשפטים</p>
+            <p>http://www.archives.gov.il/archives/#/Archive/0b0717068001ad67/File/0b07170680d0b712</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -37,38 +38,50 @@
       </front>
       <body>
          <opener> <salute>
+         <lb/>   
+         לכבוד 
+            <lb/><persName><roleName type="honorific">
+            מר </roleName><forename><abbr> י.
+            </abbr></forename><surname>שפירא</surname></persName> 
+            <lb/><roleName type="office">יועץ המשפטי במדינת ישראל</roleName>
             
-         לכבוד </salute><persName><roleName type="honorific"
-            >מר</roleName><forename><abbr> י.
-            </abbr></forename><surname>שפירא</surname></persName>
-            <roleName type="office">יועץ המשפטי במדינת ישראל</roleName>
-            
-            <choice>
+            <lb/><choice>
                <abbr>ח. י.</abbr>
                <expan>חבר יקר</expan>
             </choice>
-            
+         </salute>
          </opener>
-         <p> באקדמיה ללשון העברי של ילדי  <choice>
+         <p> <lb/>באקדמיה ללשון העברי של ילדי  <choice>
             <sic>ביתי</sic>
             <corr>בתי</corr>
-         </choice> הספר בארצנו ״התעשרה״ שפתנו במלה: ״התחרבנתי״ ואת
-            הסגולות של מלה זו הרגשתי כאשר יוצאתי מחדרך ב <date>30/6/48</date> והרגשה זו מלוה אותי
-            עוד. אני מבקשת את סליחתך ורוצה עוד לתקן מה שניתן לתיקון. הרי אני מצהירה לפניך, שפניתי
-            אליך לא רק מפני זה שהמעונינת היא אדם קרוב לו. ״פניה״ מעין זה - ״<unclear>בשם
-               עדי</unclear>״ של הלשכה המשפטית בעיניני אישות, ע״י התאחדות נשים לשווי זכויות. נאלצנו
-            ליצור <unclear>ולאיחוד</unclear> בשם זה מתוך מציאות מרה של חוסר הגנה הוגנת על האשה
-            הנשואה בארצנו. אני מצרפת פה את מאמרי ב״<orgName type="newspaper">דבר הפועלת</orgName>״ מ
-               <date>11/4/48</date> אולי ממנו תבין איך ולמה הגעתי אליך... ותסלח לי. אני מודה לך מקרב
-            הלב בעד קבלת פנים החברית </p>
+         </choice> הספר בארצנו ״התעשרה״ 
+            <lb/>שפתנו במלה: ״הִתְחַרְבַנְתִי״
+            <lb/>ואת
+            הסגולות של מלה זו הרגשתי כאשר <choice><sic>יוצאתי</sic><corr>יצאתי</corr></choice> מחדרך ב <date>30/6/48</date>
+            <lb/>והרגשה זו מלוה אותי עוד. 
+            <lb/>אני מבקשת את סליחתך ורוצה עוד לתקן מה שניתן לתיקון. 
+            <lb/>הרי אני מצהירה לפניך, שפניתי
+            אליך לא רק מפני זה 
+            <lb/>שהמעונינת היא אדם קרוב לו. 
+            <lb/>״פניה״ מעין זה - ״<unclear cert="low">בשם
+               סודי</unclear>״ של הלשכה המשפטית 
+            <lb/>בעיניני אישות, ע״י התאחדות נשים לשווי זכויות. 
+            <lb/>נאלצנו
+            ליצור <unclear>ולאחוז</unclear> בשם <unclear/> זה מתוך מציאות מרה של 
+            <lb/>חוסר הגנה הוגנת על האשה הנשואה בארצנו. 
+            <lb/>אני מצרפת פה את מאמרי ב״<orgName type="newspaper">דבר הפועלת</orgName>״ מ
+               <date>11/4/48</date> אולי ממנו תבין איך ולמה הגעתי אליך... ותסלח לי. 
+             </p>
          <closer>
-            <salute> אני מודה לך מקרב הלב בעד קבלת פנים החברית <choice>
-               <abbr>בב״ח </abbr>
+            <salute><lb/> אני מודה לך מקרב הלב בעד קבלת פנים החברית
+               <lb/><choice>
+              <abbr>בב״ח</abbr>
                <expan>בברכת חברים</expan>
             </choice></salute>
-            <signed><persName>
-               <forename><abbr>ש.</abbr></forename>
-               <surname>אדרי</surname></persName></signed>
+            <signed>
+               <lb/><persName>
+               <forename><abbr> ש.</abbr></forename>
+                  <surname>אַדַרִי</surname></persName></signed>
          </closer>
       </body>
    </text>

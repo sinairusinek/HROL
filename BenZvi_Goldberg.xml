@@ -30,11 +30,11 @@
      <dateline><date>
         ו׳ אדר א׳ תשי׳א 12 בפברואר 1951</date>
         <name type="address">רחוב
-           ארנון 15 תל-אביב</name> 
-        <salute>לכבוד הגב׳ לאה גולדבר </salute>
-     </dateline>
+           ארנון 15 תל-אביב</name> </dateline>
+  <opener>      <salute>לכבוד הגב׳ לאה גולדבר </salute>
+     
      <salute>ח.נ.</salute>
-   
+  </opener> 
         <p> אשמח מאד אם בהיותך
             ב<placeName>לונדון</placeName> תמסרי דרישת-שלום ממני לפרופ׳
                <persName>קאהלה</persName>. נשארו לי זכרונות נעימים מפגישתי האחרונה בביתו בלונדון,
