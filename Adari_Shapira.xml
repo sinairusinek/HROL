@@ -7,15 +7,50 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>מכתב מעו״ד ש. אדרי לי. שפירא 7.1/1949</title>
+            <title xml:lang="heb">מכתב מעו״ד ש. אדרי לי. שפירא 7.1.1949</title>
+            <title> 56724 תיק מארכיון המדינה,
+               משרד המשפטים</title>
+            <author xml:id="SA">ש. אדרי</author>
+            <respStmt xml:id="YN"> 
+               <name>Yael Netzer</name>
+               <resp>Transcription and Encoding</resp></respStmt>
+           <respStmt xml:id="SN"> 
+                  <name>Sinai Rusinek</name>
+                  <resp>Transcription and Encoding</resp>
+           </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            
+               <authority>Hebrew Republic of Letters</authority>
+               <publisher>Sinai Rusinek</publisher>
+               <idno type="URI">https://github.com/sinairusinek/HROL</idno>
+               <pubPlace>Israel</pubPlace>
+               <!-- Possible year update. -->
+               <date>2019</date>
+               <availability>
+                  <!-- Possible license change. -->
+                  <licence target="https://creativecommons.org/licenses/by-nc/3.0/"> All materials
+                     are licensed for use under the <ref
+                        target="https://creativecommons.org/licenses/by-nc/3.0/"> Creative
+                        Commons Attribution-Noncommercial 3.0 Unported License </ref>. </licence>
+               </availability>
          </publicationStmt>
          <sourceDesc>
-            <p> 56724 תיק מארכיון המדינה, משרד המשפטים ג (משרדי הממשלה) 56724 תיק מארכיון המדינה,
-               משרד המשפטים</p>
-            <p>http://www.archives.gov.il/archives/#/Archive/0b0717068001ad67/File/0b07170680d0b712</p>
+               
+            <msDesc>
+               <msIdentifier>
+                  <country>Israel</country>
+                  <settlement>Jerusalem</settlement>
+                  <repository>National Library of Israel</repository>
+                  
+                  <idno type="url">http://www.archives.gov.il/archives/#/Archive/0b0717068001ad67/File/0b07170680d0b712</idno>
+                  </msIdentifier>
+               <physDesc>
+                  <handDesc xml:id="SA">
+                     <handNote scope="sole"></handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -29,8 +64,10 @@
             </correspAction>
          </correspDesc>
       </profileDesc>
+      
    </teiHeader>
    <text style="direction: rtl; unicode-bidi: embed">
+      <pb facs="00071706.81.D1.A5.AE.pdf" n="0014"/>
       <front>
          <p> משרד המשפטים מחלקה 7 ינואר 1949 <date>5.1.49</date> נתקבל מס׳ 32/ תיק 8975 גניזה
                <date>6/1/49</date>
@@ -38,48 +75,48 @@
       </front>
       <body>
          <opener> <salute>
-         <lb/>   
+         <lb n="1"/>   
          לכבוד 
-            <lb/><persName><roleName type="honorific">
+            <lb n="2"/><persName><roleName type="honorific">
             מר </roleName><forename><abbr> י.
             </abbr></forename><surname>שפירא</surname></persName> 
-            <lb/><roleName type="office">יועץ המשפטי במדינת ישראל</roleName>
+            <lb n="3"/><roleName type="office">יועץ המשפטי במדינת ישראל</roleName>
             
-            <lb/><choice>
+            <lb n="4"/><choice>
                <abbr>ח. י.</abbr>
                <expan>חבר יקר</expan>
             </choice>
          </salute>
          </opener>
-         <p> <lb/>באקדמיה ללשון העברי של ילדי  <choice>
+         <p> <lb n="5"/>באקדמיה ללשון העברי של ילדי  <choice>
             <sic>ביתי</sic>
             <corr>בתי</corr>
          </choice> הספר בארצנו ״התעשרה״ 
-            <lb/>שפתנו במלה: ״הִתְחַרְבַנְתִי״
-            <lb/>ואת
-            הסגולות של מלה זו הרגשתי כאשר <choice><sic>יוצאתי</sic><corr>יצאתי</corr></choice> מחדרך ב <date>30/6/48</date>
-            <lb/>והרגשה זו מלוה אותי עוד. 
-            <lb/>אני מבקשת את סליחתך ורוצה עוד לתקן מה שניתן לתיקון. 
-            <lb/>הרי אני מצהירה לפניך, שפניתי
+            <lb n="6"/>שפתנו במלה: ״הִתְחַרְבַנְתִי״
+            <lb n="7"/>ואת
+            הסגולות של מלה זו הרגשתי כאשר <choice><sic>יוצאתי</sic><corr>יצאתי</corr></choice> מחדרך ב <date when="1948-06-30">30/6/48</date>
+            <lb n="8"/>והרגשה זו מלוה אותי עוד. 
+            <lb n="9"/>אני מבקשת את סליחתך ורוצה עוד לתקן מה שניתן לתיקון. 
+            <lb n="10"/>הרי אני מצהירה לפניך, שפניתי
             אליך לא רק מפני זה 
-            <lb/>שהמעונינת היא אדם קרוב לו. 
-            <lb/>״פניה״ מעין זה - ״<unclear cert="low">בשם
+            <lb n="11"/>שהמעונינת היא אדם קרוב לו. 
+            <lb n="12"/>״פניה״ מעין זה - ״<unclear cert="low">בשם
                סודי</unclear>״ של הלשכה המשפטית 
-            <lb/>בעיניני אישות, ע״י התאחדות נשים לשווי זכויות. 
-            <lb/>נאלצנו
+            <lb n="13"/>בעיניני אישות, ע״י התאחדות נשים לשווי זכויות. 
+            <lb n="14"/>נאלצנו
             ליצור <unclear>ולאחוז</unclear> בשם <unclear/> זה מתוך מציאות מרה של 
-            <lb/>חוסר הגנה הוגנת על האשה הנשואה בארצנו. 
-            <lb/>אני מצרפת פה את מאמרי ב״<orgName type="newspaper">דבר הפועלת</orgName>״ מ
+            <lb n="15"/>חוסר הגנה הוגנת על האשה הנשואה בארצנו. 
+            <lb n="16"/>אני מצרפת פה את <ref cRef="00071706.81.D1.A5.AE.pdf">מאמרי</ref> ב״<orgName type="newspaper">דבר הפועלת</orgName>״ מ
                <date>11/4/48</date> אולי ממנו תבין איך ולמה הגעתי אליך... ותסלח לי. 
              </p>
          <closer>
-            <salute><lb/> אני מודה לך מקרב הלב בעד קבלת פנים החברית
-               <lb/><choice>
+            <salute><lb n="17"/> אני מודה לך מקרב הלב בעד קבלת פנים החברית
+               <lb n="18"/><choice>
               <abbr>בב״ח</abbr>
                <expan>בברכת חברים</expan>
             </choice></salute>
             <signed>
-               <lb/><persName>
+               <lb n="19"/><persName>
                <forename><abbr> ש.</abbr></forename>
                   <surname>אַדַרִי</surname></persName></signed>
          </closer>
