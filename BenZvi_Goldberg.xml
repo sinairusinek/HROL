@@ -27,25 +27,40 @@
       </correspDesc></profileDesc>
   </teiHeader>
   <text><body>
-     <dateline><date>
-        ו׳ אדר א׳ תשי׳א 12 בפברואר 1951</date>
-        <name type="address">רחוב
-           ארנון 15 תל-אביב</name> 
-        <salute>לכבוד הגב׳ לאה גולדבר </salute>
-     </dateline>
-     <salute>ח.נ.</salute>
-   
-        <p> אשמח מאד אם בהיותך
-            ב<placeName>לונדון</placeName> תמסרי דרישת-שלום ממני לפרופ׳
-               <persName>קאהלה</persName>. נשארו לי זכרונות נעימים מפגישתי האחרונה בביתו בלונדון,
-            לפני שנים אחדות, אולם מאז לא עמדתי אתו בכתובים, ולצערי אינני יודע מה
-            כתובתו. מכל מקום, אני מצרף לך בזה את הכתובת של הפרופ׳ <persName>ססיל
-               רות</persName>, שבודאי יודע את מקומו ואת כתובתו. אם תראי את הפרופ׳ <persName>רות</persName>
-            תואילי-נא ג׳כ למסור לו דרישת שלום חמה ממני. הפרופ׳
-            <persName>קאהלה</persName> הוא אחד מחסידי אומות העולם, שהגן על היהודים בזמן
-            הנאצים וגם בעצמו סבל מידם והיה מוכרח לעקור מ<placeName>גרמניה</placeName> בגלל הרדיפות. מתוך
-            ספריו ומתוך המגע אתו נוכתתי שהוא ידיד ישראל והוא הגרמני היחידי שיש לי עסק אתו.
+     <dateline ><date when="1951-12-02" rend="center" >
+        <lb/>ו׳ אדר א׳ תשי׳א
+        <lb/>12 בפברואר 1951</date><address><street></street></address> </dateline>
+        <opener>  
+       <lb/>    <salute>לכבוד ה<persName><roleName type="honorific">גב׳</roleName> <forename>לאה</forename> <surname><choice><corr>גולדברג</corr><sic>גולדבר</sic></choice></surname></persName> </salute>
+     <name type="address" rend="right">רחוב
+        ארנון 15 
+        <lb/>תל-אביב</name></opener>
      
-          </p><salute>בברכת חבר </salute><signed>י. בן צבי</signed></body>
+     <salute><choice><abbr>ח.נ.</abbr><expan>חברה נכבדה</expan></choice></salute>
+   
+        <p><lb/> אשמח מאד אם בהיותך
+            ב<placeName>לונדון</placeName> תמסרי 
+           <lb/>דרישת-שלום ממני ל<persName><roleName type="honorific">פרופ׳</roleName>
+               <surname>קאהלה</surname></persName>. נשארו לי זכרונות 
+           <lb/>נעימים מפגישתי האחרונה בביתו בלונדון,
+            לפני 
+            <lb/>שנים אחדות, אולם מאז לא עמדתי אתו בכתובים, 
+           <lb/>ולצערי אינני יודע מה
+            כתובתו. מכל מקום, אני 
+            <lb/>מצרף לך בזה את הכתובת של ה<persName><roleName>פרופ׳</roleName> <forename>ססיל</forename>
+               <surname>רות</surname></persName>, 
+           <lb/>שבודאי יודע את מקומו ואת כתובתו. אם תראי את 
+           <lb/>ה<persName><roleName type="honorific">פרופ׳</roleName> <surname>רות</surname></persName>
+            תואילי-נא <choice><abbr>ג׳כ</abbr><expan>גם כן</expan></choice> למסור לו דרישת שלום 
+           <lb/>חמה ממני. ה  <persName><roleName type="honorific">פרופ׳</roleName>
+          <surname>קאהלה</surname></persName> הוא אחד מחסידי אומות 
+           <lb/>העולם, שהגן על היהודים בזמן
+            הנאצים וגם בעצמו 
+            <lb/>סבל מידם והיה מוכרח לעקור מ<placeName>גרמניה</placeName> בגלל הרדיפות. 
+           <lb/>מתוך
+            ספריו ומתוך המגע אתו נוכתתי שהוא ידיד 
+            <lb/>ישראל והוא הגרמני היחידי שיש לי עסק אתו.
+     
+          </p><lb/><salute>בברכת חבר </salute><lb/><signed>י. בן צבי</signed></body>
   </text>
 </TEI>
