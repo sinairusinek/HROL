@@ -1,10 +1,12 @@
 # attendance
 write down your name and github user, separated with a comma:
-1. -Avital, AVITALRABP
-2.  Nesreen Ammuna, NesreenNA
-3. samara safadi , samara134
-4. Eden Kavishy , edenka
-5. Ibrahem  Hindawi ibr-hin95
-6. Yuval Shlisel - yuvalShlisel
-7. Tomer Mazuz, tmazuz
+1. Avital, AVITALRABP
+1.  Nesreen Ammuna, NesreenNA
+1. samara safadi , samara134
+1. Eden Kavishy , edenka
+1. Ibrahem  Hindawi ibr-hin95
+1. Yuval Shlisel - yuvalShlisel
+1. Tomer Mazuz, tmazuz
 1. Noa Noiman, noino2
+
+Manar, Muhammad, Adir, Ortal, please add your names and github usernames!
