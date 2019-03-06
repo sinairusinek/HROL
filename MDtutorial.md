@@ -4,10 +4,9 @@
 ### כותרת
 - סעיף אחד
 - סעיף שני
-\ מה זה עושה?
 
-1. פה
-1. שם
+1. פריט ממוספר
+1. אבל שימו לב למספור בטקסט הגולמי!
 
 we can emphasize words with *italics* or with **bold**
 > and we can indent them if they are a quotation.
