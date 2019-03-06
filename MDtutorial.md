@@ -1,12 +1,12 @@
 
-#عنوان كبير 
-## عنوان صغير
--
--
-\- عارضه
+#כותרת
+## כותרת משנה
+- סעיף אחד
+-סעיף שני
+\- כאן
 
-1. بهذه الطريقه نرقم
-1. مره اخرى نرقم
+1. פה
+1. שם
 
 we can emphasize words with *italics* or with **bold**
 > and we can indent them if they are a quotation.
