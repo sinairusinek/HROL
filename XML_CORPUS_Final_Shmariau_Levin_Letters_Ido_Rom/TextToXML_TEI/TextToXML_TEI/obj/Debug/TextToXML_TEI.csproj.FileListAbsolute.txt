@@ -1,0 +1,7 @@
+C:\Users\עידו\source\repos\TextToXML_TEI\TextToXML_TEI\bin\Debug\TextToXML_TEI.exe.config
+C:\Users\עידו\source\repos\TextToXML_TEI\TextToXML_TEI\bin\Debug\TextToXML_TEI.exe
+C:\Users\עידו\source\repos\TextToXML_TEI\TextToXML_TEI\bin\Debug\TextToXML_TEI.pdb
+C:\Users\עידו\source\repos\TextToXML_TEI\TextToXML_TEI\obj\Debug\TextToXML_TEI.csprojAssemblyReference.cache
+C:\Users\עידו\source\repos\TextToXML_TEI\TextToXML_TEI\obj\Debug\TextToXML_TEI.csproj.CoreCompileInputs.cache
+C:\Users\עידו\source\repos\TextToXML_TEI\TextToXML_TEI\obj\Debug\TextToXML_TEI.exe
+C:\Users\עידו\source\repos\TextToXML_TEI\TextToXML_TEI\obj\Debug\TextToXML_TEI.pdb
