@@ -66,7 +66,7 @@
                          
                          ***
                          
-                         אתמול כבר נגמר אִלחַמדוּ-לִלָה 50
+                         אתמול כבר נגמר אִלחַמדוּ-לִלָה <note>50</note>
                          עם ידי.
                          
                          שתי שברי עצם קטנות הוציאו לי. אחת – כך, השנית אתמול עם חלוֹרוֹפוֹרם.
@@ -89,9 +89,9 @@
                          <salute>
                        שלום, אלילתי,
                          </salute>
-                         <signed><name>                         
+                         <signed><persName>                         
                          אבשלום
-                         </name></signed>
+                         </persName></signed>
                          
                      </closer>
                  </div>
@@ -162,7 +162,7 @@
                          <salute>  ילדך, </salute>
                          
                          <signed>
-                             <name>אבשלום</name></signed>
+                             <persName>אבשלום</persName></signed>
                      </closer>
                  </div>
              </body>
