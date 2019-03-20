@@ -22,7 +22,7 @@
                  <date when="1911-06-01">01 June 1911</date>
              </correspAction>
              <correspAction type="received">
-                 <persName>[שרה]</persName>
+                 <persName>[רבקה]</persName>
                  <settlement>חדרה</settlement>
              </correspAction>
          </correspDesc></profileDesc>
@@ -146,7 +146,17 @@
                  <sourceDesc>
                      <p><!-- ... --></p>
                  </sourceDesc>
-             </fileDesc>
+             </fileDesc><profileDesc><correspDesc>
+                 <correspAction type="sent">
+                     <persName>אבשלום</persName>
+                     <settlement>[זכרון יעקב]</settlement>
+                     <date when="1911-06-04">01 June 1911</date>
+                 </correspAction>
+                 <correspAction type="received">
+                     <persName>[רבקה]</persName>
+                     <settlement>חדרה</settlement>
+                 </correspAction>
+             </correspDesc></profileDesc>
          </teiHeader>
          <text>
              <body>
