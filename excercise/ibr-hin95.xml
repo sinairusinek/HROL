@@ -33,7 +33,9 @@
              </fileDesc>
              <profileDesc>
                  <correspDesc>
-                     <p/>
+                     <correspAction type="sent">
+                         <date when="1914-06-10">10.6.1914</date>
+                     </correspAction>
                  </correspDesc>
              </profileDesc>
          </teiHeader>
@@ -102,6 +104,13 @@
                      <p><!-- ... --></p>
                  </sourceDesc>
              </fileDesc>
+             <profileDesc>
+                 <correspDesc>
+                     <correspAction type="sent">
+                         <date when="1914-06-28">28.6.1914</date>
+                     </correspAction>
+                 </correspDesc>
+             </profileDesc>
          </teiHeader>
          <text>
              <body>
