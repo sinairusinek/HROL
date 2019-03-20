@@ -39,22 +39,11 @@
                          <date when="1911-06-11">11.6.1911</date>
                      </correspAction>
                      <correspAction type="received">
-                         <persName xml:id="ריבקה">ריבקה</persName>
-                         <placeName>New York</placeName>
+                         <persName>ריבקה</persName>
+                         <placeName>[זכרון]</placeName>
                      </correspAction>
                  </correspDesc>
-                 <correspDesc xml:id="message2">
-                     <correspAction type="sent">
-                         <persName>Enid Neihardt</persName>
-                         <placeName>Branson (Montgomery)</placeName>
-                         <date when="1932-12-17"/>
-                     </correspAction>
-                     <correspAction type="received">
-                         <persName sameAs="#JTH"/>
-                         <placeName>New York</placeName>
-                     </correspAction>
-                 </correspDesc>
-                 
+              
              </profileDesc>
          </teiHeader>
          <text>
@@ -92,11 +81,31 @@
                      <p><!-- ... --></p>
                  </sourceDesc>
              </fileDesc>
+             <profileDesc>
+                 <correspDesc xml:id="message1">
+                     <correspAction type="sent">
+                         <persName>אבשלום פיינברג</persName>
+                         <placeName>חדרה</placeName>
+                         <date when="1911-06-17">17.6.1911</date>
+                     </correspAction>
+                     <correspAction type="received">
+                         <persName>ריבקה</persName>
+                         <placeName>[זכרון]</placeName>
+                     </correspAction>
+                 </correspDesc>
+                 
+             </profileDesc>
          </teiHeader>
          <text>
              <body>
                  <div>
-                     <p><!-- ... --></p>
+                     <p>חדרה, מוצאי-שבת, 17 יוני 1911
+                         
+                         ילדתי החביבה, רבקתי הטובה, שלום!
+                         
+                         הערב הייתי צריך לנסוע אליך. אולם הערב נהיה לילה, לילה מר, מר מאד, ואני לא נסעתי. אבל רוצה אני בכל-זאת להיות מעט אתך, לכל הפחות ברוח, להיות מעט אתך.
+                         
+                         הנני יושב בבית זר, אצל השניאורסונים. נמצא פה… ירחמיאל יוּבל. הנער המסכן הזה בא לראות פה נערות יפואיות. הוא צריך לנסוע בשלש לזכרון, ומי כמוני יודע את הטעם הזה. והוא ביקש אותנו שנעשה את הלילה הזה ליל-שימורים. נעניתי לו בשמחה, בתקוה שיקח את מכתבי אתו.</p>
                  </div>
              </body>
          </text>
