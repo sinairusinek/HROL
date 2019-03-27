@@ -17,7 +17,7 @@
 	        </sourceDesc>
          </fileDesc>
      </teiHeader>
-     <TEI xml:id="MyTextNumber1">
+     <TEI xml:id="yuval1">
          <teiHeader>
              <fileDesc>
                  <titleStmt>
@@ -43,7 +43,7 @@
              
              
              <profileDesc>
-                 <correspDesc xml:id="message1">
+                 <correspDesc xml:id="messae1">
                      <correspAction type="sent">
                          <persName>אבשלום פיינברג</persName>
                          <placeName>חדרה</placeName>
@@ -78,7 +78,7 @@
              </body>
          </text>
      </TEI>
-     <TEI xml:id="MyTextNumber2">
+     <TEI xml:id="yuval2">
          <teiHeader>
              <fileDesc>
                  <titleStmt>
