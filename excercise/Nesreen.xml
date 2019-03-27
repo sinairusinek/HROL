@@ -13,7 +13,8 @@
 	           <p>Publication Information</p>
 	        </publicationStmt>
 	        <sourceDesc>
-	           <p>Information about the source</p>
+	            <p>פינברג, א'. (אין תאריך). מכתבים לרבקה אהרונסון. [גרסה אלקטרונית]. פרויקט בן-יהודה. נדלה בתאריך 2019-03-20. https://bybe.benyehuda.org/read/6874 </p>
+	            <p>פינברג, אבשלום, and אמיר, אהרן. אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print.</p>
 	        </sourceDesc>
          </fileDesc>
      </teiHeader>
@@ -34,15 +35,29 @@
              <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
+                        <persName>אבשלום</persName>
+                        <settlement>RAOUAM FRERES</settlement>
                             <date when="1911-07-03">03.07.1911</date>
-                        
                     </correspAction>
+                        <correspAction type="received">
+                            <persName>רבקה</persName>
+                            <settlement>זכרון יעקוב</settlement>
+                        </correspAction>                                         
                 </correspDesc>
              </profileDesc>
          </teiHeader>
          <text>
              <body>
                  <div>
+                     <dateline>
+                         <placeName>      
+                             RAOUAM FRERES
+                             Propri étaires      
+                             GRAND HOTEL D’ORIENT
+                         </placeName>
+                         <date>1911.07.3</date>
+                     </dateline>
+                     <salute>רבקתי האהובה,</salute>
                      <p>Damas, le 3   juillet 1911
                          
                          RAOUAM FRERES
@@ -94,6 +109,10 @@
                          
                          אבשלום
                      </p>
+                     <closer>
+                         <signed>אבשלום</signed>
+                         שלום רבקה’לה             
+                     </closer>
                  </div>
              </body>
          </text>
@@ -112,10 +131,29 @@
                      <p><!-- ... --></p>
                  </sourceDesc>
              </fileDesc>
+             
+             <profileDesc>
+                 <correspDesc>
+                 <correspAction type="sent">
+                     <persName>אבשלום</persName>
+                     <settlement>חדרה</settlement>
+                     <date when="1911-07-28">1911.07.28</date>
+                 </correspAction>
+                 <correspAction type="received">
+                     <persName>רבקה</persName>
+                     <settlement>זכרון יעקוב</settlement>
+                 </correspAction>
+             </correspDesc>
+             </profileDesc>
          </teiHeader>
          <text>
              <body>
                  <div>
+                     <dateline>
+                         <placeName>חדרה</placeName>
+                         <date>1911.07.28</date>
+                     </dateline>
+                     <salute>ילדותי המאד אהובות,</salute>                                                                
                      <p>
                          חדרה. יום ו', 28 יולי 1911
                          
@@ -132,6 +170,10 @@
                          שלום רב-רב לכולכם
                          
                          אבשלום</p>
+                     <closer>
+                         <signed>אבשלום</signed>
+                         שלום רב-רב לכולכם                        
+                     </closer>
                  </div>
              </body>
          </text>

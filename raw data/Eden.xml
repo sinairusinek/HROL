@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+                 <title>title of corpus</title>
+                 <author>author</author>
+             </titleStmt>
+	        <publicationStmt>
+	           <p>Publication Information</p>
+	        </publicationStmt>
+	        <sourceDesc>
+	            <p>Iפינברג, א'. (אין תאריך). מכתבים לרבקה אהרונסון. [גרסה אלקטרונית]. פרויקט בן-יהודה. נדלה בתאריך 2019-03-20. https://bybe.benyehuda.org/read/6874</p>
+	            <p>פינברג, אבשלום, and אמיר, אהרן. אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print.</p>
+	        </sourceDesc>
+         </fileDesc>
+     </teiHeader>
+     <TEI xml:id="MyTextNumber1">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                     <p>חדרה, 1 לנובמבר, 1911
+                         
+                         לבּתי האהובה,
+                         
+                         אם נעצבתי אל לבי הינך מבינה בעצמך. אבל לא רק מהרגש האנוכיי על שאינך באה, הנני גם נעצב מאד על שאמך חולה שוב. מה יהיה סוף הדברים האלה?
+                         
+                         בבית עובדים, עושים סדרים, שבים לחיות… קורים פה דברים משונים: שוכבים במיטות מוצעות, יושבים אל שולחן נקי, ועוד פלאי-פלאים שאיבּדתי הרגלם פה.
+                         
+                         מאיין הינך לוקחת שביתנו מלא אורחים? כלל. רק הא' בלקינד פה והוא הן נשאר. עכשיו פה גם הא' מ. חנקין, אבל הוא רק לוקח ארוחותיו אצלנו וישן הוא אצל אחיו. כך, הננו לבדנו, אמא ואני, אני ואמא…
+                         
+                         במה שנוגע לפרזנליכקייט 35
+                         \שלי, הנני חלש מאד, כנראה באה ה-r ? action 36 . אמי והרופא רוצים שאקח חינה37
+                         . אִמרי בעצמך, חביבתי, האם אין אלה שטותים בעלמא? אמי מתהלכת כצל, עובדת, משוטטת בפינות, מתבודדת, מתגעגעת ומראֶהָ פולח לבּי.
+                         
+                         מה עושה את? מה שלום ספּתנו היקרה? אני מתגעגע לשתיכן, סוגר לרגעים עיני למען להיות אתכן במחשבה. נורא כמה הלילות ארוכים פה… לילות בלי נשיקות, ימים בלי שמש, תהומות נצחיים. החורף אורב לנו, רבקתי האהובה, עם הקור, עם ענניו, עם כלאוֹ, עם צוֹמוֹתיו הארוכים. לבּי נקפא בקרבּי ושפתי מתכווצות, בזכרי אלה; ולחישה באה ממעמקים: אין לעזור… אין לעזור… הנה גם ליומיים אמך לא רוצה לעזבך הנה. אבל אִמרי לה שסוף-סוף תכריחני לגנבך ולא להשיבך כלל. או לא! מוטב לא להגיד לה כלום…
+                         
+                         ראשי כבד עלי, חביבוֹני הלָטיף, ואינני יכול לפטפט יותר. והן גם ככה קוראת את לי פטפטן ותמיד רק מגדפת אותי, ולמה לי להוסיף?
+                         
+                         אִמרי שלום לכולם, בייחוד לאמך, וכי כועס אני עליה ועל לבּה 38
+                         
+                         שלום, מלכתי הקטנה! הנני מדביק לבי וּשׂפתי לרגליך הננסיות, לשוּלי שמלתך היקרה, לקצה סינורך המבוּשׂם הנני שם ראשי על זרועותיך האהובים, על לבּך החם.
+                         
+                         הנני שלך בלי מעצור,
+                         
+                         אבשלום</p>
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <TEI xml:id="MyTextNumber2">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                     <p><!-- ... --></p>
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <!-- More TEI Documents -->
+</teiCorpus>
