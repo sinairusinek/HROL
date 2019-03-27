@@ -1,0 +1,29 @@
+A regular expression, 
+or regex is a sequence of characters
+ that define a search pattern. 
+ Usually this pattern is used by string searching algorithms for "find" or
+ "find and replace" operations on strings, 
+ or for input validation. 
+
+ It is a technique that developed in theoretical 
+ computer science and formal language theory.
+Developed in the Regular expressions are used 
+in search engines, search and replace dialogs of word 
+processors and text editors, in text processing utilities 
+and in lexical analysis. Many programming languages provide 
+regex capabilities, built-in or via libraries.
+Each character in a regular expression 
+(that is, each character in the string describing its pattern) 
+is either a metacharacter, having a special meaning, or a regular character 
+that has a literal meaning. 
+For example, in the regex a., a is a literal character which matches just 'a',
+ while '.' is a meta character that matches every character except a newline. 
+ Therefore, this regex matches, for example, 'a ', or 'ax', or 'a0'. 
+ Together, metacharacters and literal characters 
+ can be used to identify text of a given pattern, 
+ or process a number of instances of it.
+A very simple case of a regular expression in this syntax is to locate a word spelled two different ways in a text editor, the regular expression seriali[sz]e matches both "serialise" and "serialize". Wildcards also achieve this, but are more limited in what they can pattern, as they have fewer metacharacters and a simple language-base.
+
+The regular expression seriali(s|z)e will also match "serialise" and "serialize".
+Wikipedia contributors, "Regular expression," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Regular_expression&oldid=887096763 (accessed March 26, 2019).
+
