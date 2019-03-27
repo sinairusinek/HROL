@@ -16,7 +16,7 @@
 	           <p>פרוייקט בן יהודה</p>
 	         	        </sourceDesc>
          </fileDesc>
-     </teiHeader>  <TEI xml:id="MyTextNumber1">
+     </teiHeader>  <TEI xml:id="Letter1Avital">
          <teiHeader>
              <fileDesc>                 
                  <titleStmt>
@@ -209,7 +209,7 @@
          </text>
      </TEI>
     
-     <TEI xml:id="MyTextNumber2">
+     <TEI xml:id="Letter2Avital">
          <teiHeader>
              <fileDesc>
                  <titleStmt>
