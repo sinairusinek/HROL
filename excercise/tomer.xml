@@ -15,7 +15,8 @@
 	        <sourceDesc>
 	           <p>Information about the source</p>
 	        </sourceDesc>
-         </fileDesc><profileDesc><correspDesc>
+         </fileDesc>
+         <profileDesc><correspDesc>
              <correspAction type="sent">
                  <persName>אבשלום</persName>
                  <settlement>[זכרון יעקב]</settlement>
@@ -41,6 +42,17 @@
                      <p><!-- ... --></p>
                  </sourceDesc>
              </fileDesc>
+             <profileDesc><correspDesc>
+                 <correspAction type="sent">
+                     <persName>אבשלום</persName>
+                     <settlement>[זכרון יעקב]</settlement>
+                     <date when="1911-06-01">01 June 1911</date>
+                 </correspAction>
+                 <correspAction type="received">
+                     <persName>[רבקה]</persName>
+                     <settlement>חדרה</settlement>
+                 </correspAction>
+             </correspDesc></profileDesc>
          </teiHeader>
          <text>
              <body>
