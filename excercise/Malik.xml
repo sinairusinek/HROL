@@ -20,7 +20,7 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <TEI xml:id="MyTextNumber1">
+    <TEI xml:id="MALIK">
         <teiHeader>
             <fileDesc>
                 
@@ -52,7 +52,7 @@
         <text>
             <body>
                 <div>
-                    <dateline> חדרה, 11 יוני 1911</dateline> 
+                    <dateline> 13.11.11, חדרה</dateline> 
                     <salute>רבקוני, שלום לך מנחמתי הטובה! </salute> 
                     <p>ואני כל-כך חיכּיתי לך אמש!... ידעתי שאת באה, אבל presentiment[42] בעד
                         העגלונים שלא הלכו לא היה לי כלל. וסוף כל סוף הלא באה עגלה מזכרון-יעקב...
@@ -102,7 +102,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="MyTextNumber2">
+    <TEI xml:id="MALIK">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -131,7 +131,7 @@
         </teiHeader>
         <text>
             <body>
-                <div><dateline> חדרה, 11 יוני 1911</dateline> 
+                <div><dateline>חדרה, 14.11.1911</dateline> 
                     <salute>ילדתי החביבה, שלום.</salute> 
                     <p>בלילה כתבתי לצלנקה [צילה] ומכתבי-עסקים והחלטתי בלבבי לגמור את הכל בשוּרות אחדות אליך; אבל הייתי כל-כך עייף ויגע שהיה לי אי-אפשר.  מכתב אליך זה  dessert,[48] זה נקיון כללי של הלב, אחרי עמל היום ומכאוביו, וצריך לעשות את זה בלב שלם. 
                         עם צלקה דיברתי ארוכות עליך, מהלך דפים אחדים, ונדמה לי כי זה לחיות קצת אתך.  דברים רבים שלך אי-אפשר להגיד ושמוּתר להגיד לאחות קטנה... 
