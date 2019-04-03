@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+                 <title>title of corpus</title>
+                 <author>author</author>
+             </titleStmt>
+	        <publicationStmt>
+	           <p>Publication Information</p>
+	        </publicationStmt>
+	        <sourceDesc>
+	            <p>פינברג, א'. (אין תאריך). מכתבים לרבקה אהרונסון. [גרסה אלקטרונית]. פרויקט בן-יהודה. נדלה בתאריך 2019-03-20. https://bybe.benyehuda.org/read/6874 </p>
+	            <p>פינברג, אבשלום, and אמיר, אהרן. אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print.</p>
+	        </sourceDesc>
+         </fileDesc>
+     </teiHeader>
+     <TEI xml:id="MyTextNumber1">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc>
+             <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>אבשלום</persName>
+                        <settlement>RAOUAM FRERES</settlement>
+                            <date when="1911-07-03">03.07.1911</date>
+                    </correspAction>
+                        <correspAction type="received">
+                            <persName>רבקה</persName>
+                            <settlement>זכרון יעקוב</settlement>
+                        </correspAction>                                         
+                </correspDesc>
+             </profileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                     <dateline>
+                         <placeName>      
+                             RAOUAM FRERES
+                             Propri étaires      
+                             GRAND HOTEL D’ORIENT
+                         </placeName>
+                         <date>1911.07.3</date>
+                     </dateline>
+                     <salute>רבקתי האהובה,</salute>
+                     <p>Damas, le 3   juillet 1911
+                         
+                         RAOUAM FRERES
+                         
+                         Propri étaires
+                         
+                         GRAND HOTEL D’ORIENT
+                         
+                         
+                         רבקתי האהובה,
+                         
+                         יושבים כולנו אל השולחן ומכבשים צמחים. כמובן אני חושב אודותיך. בין שני רגשות לבי פה פוסח, כאב לי מאד שלא באת אתנו, שאינך פה. ובכל-זאת, אחרי הכל היטב קשה הנסיעה בשביל המין היפה ולעתים קרובות שמח אני שלא באתן. למשל, היום הייתי מאושר כקוף צעיר שנמלט מבית אמו. הראיתי כשרונותי לסלעים ולעצים, דילגתי, טיפסתי, קטפתי, שתיתי מכל מעיין, וחושב אני כי כל הסלעים האלה שנתחבּבו כה עלי היו מאֵרת-נפשי לוּ העיזו לפגוע לא בדי הדרת-כבוד ברגליך החביבות. צריך בכל-זאת כוחות גבר והֶרגל לעייפוּת למען לעשות raid19 שכזה. אבל מה שייך, מתוך צערי אני מתגעגע לרגעים ככלב ממש. ועכשיו עוד יש ירח; ואנוכי אעיז לראות את קרח החרמון תחת אור הלבנה, ואת מה את עושה? אולי הינך עצובה, ילדה מרושעת?!… זאת מחשבה שמנקרת תדיר במוחי פה.
+                         
+                         
+                         
+                         ***
+                         
+                         נסיעתנו חלום יפה. הוא 20הנהו הקוסם שהינך יודעת. בר-שיחה, מהתלות, לימוד, והרחבת-הדעת. אמנם מכל האהבות המסוכּנות שבחיי זאת היא היותר מסוכנת, האהבה שהנני חש לאחיך. אני מתרגל לחברתו כ"כ מהר כמו לולא עזבתיו מיום היולדי. בלבי הצמא לדבריו: “מה הוא חושב? מה יאמר?” וכו'. רגש חביב ונורא. אני מכיר ומודה על זאת.
+                         
+                         
+                         
+                         ***
+                         
+                         היום הזכרנוך.
+                         
+                         אנוכי שמתי צמחים בניירות. רציתי לאמור כבשתי, אבל על זה הייתי מוכרח להוסיף: S’il est permis de s’exprimer ainsi.21
+                         
+                         אחיך הצטחק ואמר לי:
+                         
+                         רע, אבל עכשיו לא-כלום, תראה כשנשוב ונפלת בידי רבקה, אז תהיה “אין גלות”, 22הלא הינך יודע?…
+                         
+                         כן, אני יודע… גם אני בלבי הצטחקתי. תבוא עלי גלות זו בלי גאולה, רש"ע! 23 ואפול-נא בידך, חביבתי, ובידי אחר אַל אפּוֹלה! סלחי שידידך דוב הנהו, אלמד עוד לרקוד בקרב הזמן…
+                         
+                         ועתה אל החרמון!
+                         
+                         אחיך מאיים באחותו הקטנה, ומאיים הוא בחרמונו הקר.
+                         
+                         אם אקפא שם למוות, הינך מתבקשת לבוא על קברי. במקום שיהיה קרח נמס, תביני כי שם היה לבי.
+                         
+                         איך לגמור?
+                         
+                         הלא את שונאת ש… אבל באמת אחת עוד לא למדתי, להתאפק מלהגיד: “שנאתיך!” או “אהבתיך!”
+                         
+                         אינך רוצה בי, אינני מעיז לאמור: “שלך”.
+                         
+                         מצב קשה!
+                         
+                         שלום רבקה’לה
+                         
+                         אבשלום
+                     </p>
+                     <closer>
+                         <signed>אבשלום</signed>
+                         שלום רבקה’לה             
+                     </closer>
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <TEI xml:id="MyTextNumber2">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc>
+             
+             <profileDesc>
+                 <correspDesc>
+                 <correspAction type="sent">
+                     <persName>אבשלום</persName>
+                     <settlement>חדרה</settlement>
+                     <date when="1911-07-28">1911.07.28</date>
+                 </correspAction>
+                 <correspAction type="received">
+                     <persName>רבקה</persName>
+                     <settlement>זכרון יעקוב</settlement>
+                 </correspAction>
+             </correspDesc>
+             </profileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                     <dateline>
+                         <placeName>חדרה</placeName>
+                         <date>1911.07.28</date>
+                     </dateline>
+                     <salute>ילדותי המאד אהובות,</salute>                                                                
+                     <p>
+                         חדרה. יום ו', 28 יולי 1911
+                         
+                         ילדותי המאד אהובות,
+                         
+                         אתמול העיר אותי משנתי ברד של נשיקות. חשבתי – חלום. פקחתי עין וראיתי שכדאי לפתוח גם את השנית, יען שהילדה היותר טובה שמדן ועד באר-שבע עמדה אצל מיטתי: בבית טוב עכשיו. צלצל 24לא הביאה אתה מתנה. רק האדון מושנזון (המורה הצרפתי שהתוודעתן אליו אצל הופנקו) 25בא אתה ואנחנו שמחים לעצרו זמן-מה אצלנו.
+                         
+                         אני משתדל להירתם שוב בעבודה, והדבר פחות… קל ממה שהינכן חושבות. יהודה זַלדִין ממהר לנסוע, על כן הנני מוכרח להגביל את מכתבי, תקוותי חזקה שלא תאלצנה אותי לכתוב. את, שרה, הילדה היותר רעה שאני מכיר. מה היה לוּ באת אלינו מעט? האם העולם היה נחרב או החתונה מתאחרת חס-ושלום?…
+                         
+                         עם צלה כבר נכנסתי ב- Diplomatische unterhandkungen26 אודות התארחות אצלכן. אותה יהיה קל לפתות, את אמי ואבי אולי פחות. בכלל אנחנו מסדרים complot27 (צלה בראש!) שאמא תסע דמשׂקה ושהעלמה תישאר עקרת-הבית. נראה.
+                         
+                         בכל-אופן מרשים לכן לבוא ביום הראשון עם החוואג’ה, למען לטכּס עצה. לעת עתה שלום! ובכל לבי…
+                         
+                         שלום רב-רב לכולכם
+                         
+                         אבשלום</p>
+                     <closer>
+                         <signed>אבשלום</signed>
+                         שלום רב-רב לכולכם                        
+                     </closer>
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <!-- More TEI Documents -->
+</teiCorpus>

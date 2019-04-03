@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>מכתבי אבשלום פיינברג</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>מהדורת XML תוייגה על ידי תלמידי הקורס "טקסט בעידן הדיגיטלי", אוניברסיטאת חיפה 2019.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>	
+                    פינברג, אבשלום. "מכתבים לרבקה אהרונסון". פרויקט בן-יהודה. אין תאריך. 2019-03-20. https://bybe.benyehuda.org/read/6874</p>
+                <p>פינברג, אבשלום, and אמיר, אהרן. אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print.
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+     <TEI xml:id="Adir1">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc>
+             <profileDesc>
+                 <correspDesc xml:id="message1">
+                 <correspAction type="sent">
+                     <persName>אבשלום פיינברג</persName>
+                     <placeName>[Unknown]</placeName>
+                     <date when="1911-12-03">3.12.1911</date>
+                 </correspAction>
+                 <correspAction type="received">
+                     <persName>רבקה אהרונסון</persName>
+                     <placeName>[זיכרון יעקב]</placeName>
+                 </correspAction>
+                 </correspDesc>
+             </profileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                    <opener>
+                        <dateline><date>3.12.1911</date></dateline>
+                         
+                        <salute>משאת-נפשי הרחוקה, שלום.</salute>
+                    </opener>
+                         
+                     <p>  אייך, רבקתי? מדוע החיים כל-כך אכזריים ומדוע את כל-כך רחוקה? הלא ברגע הזה היה לי להגיד לך כל-כך הרבה בלטיפות, במלים ובדמעות, ועל מקום זה צריך לשרוט על הנייר…
+                         
+                         שרב. מחפשים צל. הנה המנוחה. ולמען הגיענה צריך לעבור דרך ביצת-יוון – רפש הכּתב.
+                         
+                         הגיון של חיים.
+                         
+                         
+                         
+                         ***
+                         
+                         אתמול כבר נגמר אִלחַמדוּ-לִלָה <note>50</note>
+                         עם ידי.
+                         
+                         שתי שברי עצם קטנות הוציאו לי. אחת – כך, השנית אתמול עם חלוֹרוֹפוֹרם.
+                         
+                         הרופא יעץ זאת כי לא רצה להסב מכאובים בלי תועלת.
+                         
+                         הכל טוב. את השאר יגמרו בחדרה.
+                         
+                         חושב אני כי אשוב הביתה ב- 5 ח“ז או 7 ח”ז. (שלישי או חמישי).
+                         
+                         
+                         
+                         ***
+                         
+                         ומתי אוֹחזך בזרועותי?
+                         
+                         לעת-עתה במחשבתי מחבּק אני את גופך הקט את נשמתך הגדולה את לבך היקר, אני מאַמצם לשׂפתי ולוחש: שלי, שלי, שלי!
+                     </p>
+                     <closer>
+                         <salute>
+                       שלום, אלילתי,
+                         </salute>
+                         <signed><persName>                         
+                         אבשלום
+                         </persName></signed>
+                         
+                     </closer>
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <TEI xml:id="Adir2">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc><profileDesc>
+             <correspDesc xml:id="message2">
+                 <correspAction type="sent">
+                     <persName>אבשלום פיינברג</persName>
+                     <placeName>[חדרה]</placeName>
+                     <date when="1911-12-12">12.12.1911</date>
+                 </correspAction>
+                 <correspAction type="received">
+                     <persName>רבקה אהרונוסון</persName>
+                     <placeName>[זיכרון יעקב]</placeName>
+                 </correspAction>
+             </correspDesc></profileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                     <opener>
+                         <dateline>
+                             <date>  12.12.1911</date>
+                         </dateline>
+                         <salute>
+                         אלילתי,
+                         </salute>
+                     </opener>
+                      <p>   אני כורע לפניך, שׂם ראשי בחיקך, ומחבקך…
+                         
+                         אלה היו החלומות של שלשום.
+                         
+                         העיקה על לבי כל המרירות שנצברה, נשׂרפו שׂפתי מאֵש הנשיקות שנאגרו…
+                         
+                         היה לי כל-כך הרבה להגיד ולקבל.
+                         
+                         באת… ברחת.
+                         
+                         לא כעסתי, אפרוחי, אל תחשדיני. רק הייתי כאיש שגזלו ממנו אוֹשר שקיוה אליו זה כמה…
+                         
+                         סלחי!
+                         
+                         שמעי, רבקה, מלה אחת ואחריה לא יהיה להגיד עוד:
+                         
+                         אני אוהב אותך, אוהב! אוהב! אוהב!
+                         
+                         הלא את הילדה שכּולה שלי.
+                         
+                         ולוּ גם יישׂרף לבּי ממך הריני מקבל באהבה.
+                      </p>
+                     <closer>
+                       
+                         <salute>  ילדך, </salute>
+                         
+                         <signed>
+                             <persName>אבשלום</persName></signed>
+                     </closer>
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <!-- More TEI Documents -->
+</teiCorpus>

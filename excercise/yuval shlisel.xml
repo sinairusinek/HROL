@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+                 <title>title of corpus</title>
+                 <author>author</author>
+             </titleStmt>
+	        <publicationStmt>
+	           <p>Publication Information</p>
+	        </publicationStmt>
+	        <sourceDesc>
+	           <p>Information about the source</p>
+	        </sourceDesc>
+         </fileDesc>
+     </teiHeader>
+     <TEI xml:id="yuval1">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc>
+             <profileDesc>
+                 
+             </profileDesc>
+             
+             
+             
+             
+             
+             
+             
+             
+             <profileDesc>
+                 <correspDesc xml:id="messae1">
+                     <correspAction type="sent">
+                         <persName>אבשלום פיינברג</persName>
+                         <placeName>חדרה</placeName>
+                         <date when="1911-06-11">11.6.1911</date>
+                     </correspAction>
+                     <correspAction type="received">
+                         <persName>ריבקה</persName>
+                         <placeName>[זכרון]</placeName>
+                     </correspAction>
+                 </correspDesc>
+              
+             </profileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                     
+                     <dateline> חדרה, 11 יוני 1911</dateline>  
+                         
+                     <salute>רבקה שנואת נפשי, שלום.</salute> 
+                         
+                        <p> חן-חן בעד השלום החרר והיבש שהשלכת לי כגרם, הינך ילדה אדיבה מאד, היראה להישכח מלב, והשוכחת במהירות הברק, מעליש… בת-חוה. אנוכי למרות כל רצוני וכל השנאה שהנני רוחש אליך (אלה הם דברי נערה קטנה שהנני מאמין לה… לפעמים) הנני חושב אודותיך לפעמים… יותר מדי תכופות משהייתי רוצה. מה לעשות? האם אפשר לשים על דלתי המחשבה כתובת: D é fense a Rivka d’enter!.11
+                         
+                         הנני מחבק ומלטף את ידיך וזרועותיך שהינך כה שומרת על נקיונן.</p>
+                         
+                        <salute> אחיך אוהבך,
+                         
+                         אבשלום</salute>
+                         
+                     
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <TEI xml:id="yuval2">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc>
+             <profileDesc>
+                 <correspDesc xml:id="message2">
+                     <correspAction type="sent">
+                         <persName>אבשלום פיינברג</persName>
+                         <placeName>חדרה</placeName>
+                         <date when="1911-06-17">17.6.1911</date>
+                     </correspAction>
+                     <correspAction type="received">
+                         <persName>ריבקה</persName>
+                         <placeName>[זכרון]</placeName>
+                     </correspAction>
+                 </correspDesc>
+                 
+             </profileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                     <dateline> חדרה, מוצאי-שבת, 17 יוני 1911</dateline>
+                         
+                     <salute> ילדתי החביבה, רבקתי הטובה, שלום!</salute> 
+                         
+                       <p>  הערב הייתי צריך לנסוע אליך. אולם הערב נהיה לילה, לילה מר, מר מאד, ואני לא נסעתי. אבל רוצה אני בכל-זאת להיות מעט אתך, לכל הפחות ברוח, להיות מעט אתך.
+                         
+                         הנני יושב בבית זר, אצל השניאורסונים. נמצא פה… ירחמיאל יוּבל. הנער המסכן הזה בא לראות פה נערות יפואיות. הוא צריך לנסוע בשלש לזכרון, ומי כמוני יודע את הטעם הזה. והוא ביקש אותנו שנעשה את הלילה הזה ליל-שימורים. נעניתי לו בשמחה, בתקוה שיקח את מכתבי אתו.
+                       </p>
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <!-- More TEI Documents -->
+</teiCorpus>

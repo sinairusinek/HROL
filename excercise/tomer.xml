@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+                 <title>title of corpus</title>
+                 <author>author</author>
+             </titleStmt>
+	        <publicationStmt>
+	           <p>Publication Information</p>
+	        </publicationStmt>
+	        <sourceDesc>
+	           <p>Information about the source</p>
+	        </sourceDesc>
+         </fileDesc>
+         <profileDesc><correspDesc>
+             <correspAction type="sent">
+                 <persName>אבשלום</persName>
+                 <settlement>[זכרון יעקב]</settlement>
+                 <date when="1911-06-01">01 June 1911</date>
+             </correspAction>
+             <correspAction type="received">
+                 <persName>[רבקה]</persName>
+                 <settlement>חדרה</settlement>
+             </correspAction>
+         </correspDesc></profileDesc>
+     </teiHeader>
+     <TEI xml:id="MyTextNumber1">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc>
+             <profileDesc><correspDesc>
+                 <correspAction type="sent">
+                     <persName>אבשלום</persName>
+                     <settlement>[זכרון יעקב]</settlement>
+                     <date when="1911-06-01">01 June 1911</date>
+                 </correspAction>
+                 <correspAction type="received">
+                     <persName>[רבקה]</persName>
+                     <settlement>חדרה</settlement>
+                 </correspAction>
+             </correspDesc></profileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                   <opener>
+                       <dateline>
+                           <date>4 יוני 1911,</date>  <placeName> חדרה</placeName>
+                           <salute>יקירתי</salute>                 
+                            
+                             </dateline>
+                   </opener>    
+                     <p>
+                 
+                         היתי צריך לבוא אליכן אתמול. אבל מצב אמי לא הוטב, ונוסף לזאת באו אלינו אורחות. צִלקה באה עם כל ה- suite7 (עַדַל דיזנגוף, רבקה רזניק ופנינה). וצריך להיות קַווַלייר מנומס ומכניס-אורחים. כך לא מזיק שבּאו כל היֵנטס האלה, יביאו אתם מעט חיים, מדוע לא? כי הלייט-מוטיב איננו מן היותר שמחים הינכן מבינות בעצמכן… ריקנות נוראה בלב ובמוח.
+                         
+                         מסורנה בבקשה לאדון אהרנסון את משקפיו ששכח פה. ברכת חג-טוב לכולם. לכן לחיצת-יד מלאת אחוה.
+                         
+      אבשלום
+                         
+                         
+                         
+                         שלום רב לגבירות שרה ורבקה!
+                         
+                         אתמול באנו כאן, פה נעים וטוב, רק כשנזכרים שבקרוב צריך יהיה הכל לעזוב ולשוב ליפו, אזי קצת קשה על הלב. צר מאד שבאנו לזמן כל-כך קצר, חשבנו אולי יעלה בידינו להיות בזכרון, אבל זה כמעט אי-אפשר. ברכת חג טוב.
+                         
+                         רבקה רזניק
+                         
+                         
+                         
+                         שלום לכן יקירותי,
+                         
+                         באנו אתמול בערב לחדרה. אמא מרגישה את עצמה לא טוב ואני – בעלת-בית. יש לי היום די עבודה בשביל זאת. נוּ, שלום לכן וּסלחנה על מלותי הקטועות.
+                         
+                         נשיקותי לכל וברכה לחג.
+                         
+                         שלכן,
+                         
+                         צלה
+                         
+                         
+                         
+                         לכבוד העלמות הנכבדות שרה ורבקה!
+                         
+                         משתמשת אני בהזדמנות לרשום מלים אחדות. אתמול באנו לחדרה ושמחוֹת אנחנו מאד. חדרה עשתה עלי רושם טוב ואין חשק לשוב ליפו. הייתי רוצה מאד גם להיות בזכרון, אך החופש כל-כך קצר שאין זמן.
+                         
+                         ברכה לחג ושלום,
+                         
+                         פנינה
+                         1 ליוני 1911
+                         
+                         יקירותי,
+                         
+                         היתי צריך לבוא אליכן אתמול. אבל מצב אמי לא הוטב, ונוסף לזאת באו אלינו אורחות. צִלקה באה עם כל ה- suite7 (עַדַל דיזנגוף, רבקה רזניק ופנינה). וצריך להיות קַווַלייר מנומס ומכניס-אורחים. כך לא מזיק שבּאו כל היֵנטס האלה, יביאו אתם מעט חיים, מדוע לא? כי הלייט-מוטיב איננו מן היותר שמחים הינכן מבינות בעצמכן… ריקנות נוראה בלב ובמוח.
+                         
+                         מסורנה בבקשה לאדון אהרנסון את משקפיו ששכח פה. ברכת חג-טוב לכולם. לכן לחיצת-יד מלאת אחוה.
+                         
+                         שלכן,
+                         
+                         אבשלום
+                         
+                         
+                         
+                         שלום רב לגבירות שרה ורבקה!
+                         
+                         אתמול באנו כאן, פה נעים וטוב, רק כשנזכרים שבקרוב צריך יהיה הכל לעזוב ולשוב ליפו, אזי קצת קשה על הלב. צר מאד שבאנו לזמן כל-כך קצר, חשבנו אולי יעלה בידינו להיות בזכרון, אבל זה כמעט אי-אפשר. ברכת חג טוב.
+                         
+                         רבקה רזניק
+                         
+                         
+                         
+                         שלום לכן יקירותי,
+                         
+                         באנו אתמול בערב לחדרה. אמא מרגישה את עצמה לא טוב ואני – בעלת-בית. יש לי היום די עבודה בשביל זאת. נוּ, שלום לכן וּסלחנה על מלותי הקטועות.
+                         
+                         נשיקותי לכל וברכה לחג.
+                         
+                         שלכן,
+                         
+                         צלה
+                         
+                         
+                         
+                         לכבוד העלמות הנכבדות שרה ורבקה!
+                         
+                         משתמשת אני בהזדמנות לרשום מלים אחדות. אתמול באנו לחדרה ושמחוֹת אנחנו מאד. חדרה עשתה עלי רושם טוב ואין חשק לשוב ליפו. הייתי רוצה מאד גם להיות בזכרון, אך החופש כל-כך קצר שאין זמן.
+                         
+                         ברכה לחג ושלום,
+                         
+                         פנינה
+                     </p>
+                       <closer>
+                           <salute>שלכן,</salute>
+                           <signed>  <persName>אבשלום</persName> </signed>
+                       </closer>
+                       
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <TEI xml:id="MyTextNumber2">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title><!-- ... --></title>
+                     <author><!-- ... --></author>
+                 </titleStmt>
+                 <publicationStmt>
+                     <p><!-- ... --></p>
+                 </publicationStmt>
+                 <sourceDesc>
+                     <p><!-- ... --></p>
+                 </sourceDesc>
+             </fileDesc><profileDesc><correspDesc>
+                 <correspAction type="sent">
+                     <persName>אבשלום</persName>
+                     <settlement>[זכרון יעקב]</settlement>
+                     <date when="1911-06-04">01 June 1911</date>
+                 </correspAction>
+                 <correspAction type="received">
+                     <persName>[רבקה]</persName>
+                     <settlement>חדרה</settlement>
+                 </correspAction>
+             </correspDesc></profileDesc>
+         </teiHeader>
+         <text>
+             <body>
+                 <div>
+                     <opener>
+                         <dateline>
+                             <date>4 יוני 1911,</date>  <placeName> חדרה</placeName>
+                         </dateline>
+                         <salute> ילדותי החביבות.</salute>
+                     </opener>
+                     <p>
+    
+                         הילדות נסעו הבוקר, ובבית הכל מת. אמא שוכבת חולה-חולה. מי יודע מתי נוכל להתראות?… הייתי רוצה שאמי תוכל כבר לנסוע ואז אשלחֶנה ליפו. מה שלומכן? מדוע הינכן כה שתקניות וכה רעות. ממני אינני יכול לדבר כלום, הכל ריק, הכל עגום, הלייט-מוטיב שחור… עצבַּי אפילו כבר לא מתוחים, חתיכות סמרטוט ודי.
+                         
+                         פה הגברת יפה [אשת ד"ר הלל יפה] (היא תמסור מכתבי). לגיסתה יש ראש יפה מלבד ה- gencives8 העליונים בעת שהיא מצטחקת. לא רע. אני מוצא כי הינה aimable9 ולו היה לי זמן ו- auflage10 הייתי אוסר flirt. מה דעתכן, חברותי הטובות? נוּ, די שטוּת. אני מחפש איזה דבר ולא מוצא.
+                         
+                         כן! העלמה לא מסרה את מכתבכן, אבל זה-עתה הביאו אותו. חן-חן! חטאתי! הנני לוקח גידופי בחזרה. הינכן ילדות טובות וחביבות, ואני נער רע ונרגז. סלחנה, אחיותי. במוקדם האפשרי אבוא. הגברת יפה לא נותנת לגמור…
+                            </p>
+                         <closer>
+                             <salute>שלום . אחיכן,</salute>
+                             <signed>  <persName>   אבשלום</persName> </signed>
+                         </closer>         
+                         
+                     
+                 </div>
+             </body>
+         </text>
+     </TEI>
+     <!-- More TEI Documents -->
+</teiCorpus>
