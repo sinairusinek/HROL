@@ -37,7 +37,7 @@
                      <date when="1911-12-14"/>
                       </correspAction>
                  <correspAction type="received">
-                     <persName xml:id="JTH">רבקה אהרונסון</persName>
+                     <persName >רבקה אהרונסון</persName>
                      <placeName>[זכרון יעקב]</placeName>
                  </correspAction>
              </correspDesc></profileDesc>
@@ -263,7 +263,7 @@
                      <date when="1911-12-20"/>
                  </correspAction>
                  <correspAction type="received">
-                     <persName xml:id="JTH1">רבקה אהרונסון</persName>
+                     <persName>רבקה אהרונסון</persName>
                      <placeName>[זכרון יעקב]</placeName>
                  </correspAction></correspDesc></profileDesc>
          </teiHeader>
