@@ -6,18 +6,20 @@
      <teiHeader>
          <fileDesc>
              <titleStmt>
-                 <title>title of corpus</title>
-                 <author>author</author>
+                 <title>מכתבי אבשלום פיינברג</title>
              </titleStmt>
 	        <publicationStmt>
-	           <p>Publication Information</p>
+	            <p>מהדורת XML תוייגה על ידי תלמידי הקורס "טקסט בעידן הדיגיטלי", אוניברסיטאת חיפה 2019.</p>
 	        </publicationStmt>
 	        <sourceDesc>
 	            <listPerson>
 	                <person xml:id="AvishalomFienberg"></person>
 	                <person xml:id="RivAaronsohn"></person>
 	            </listPerson>
-	           <bibl>Information about the source</bibl>
+	            <bibl>
+	                פינברג, אבשלום. "מכתבים לרבקה אהרונסון". פרויקט בן-יהודה. אין תאריך. 2019-03-20. https://bybe.benyehuda.org/read/6874
+	            פינברג, אבשלום, and אמיר, אהרן. אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print.
+	            </bibl>
 	            <listPlace>
 	                <place xml:id="Hadera"></place>
 	                <place xml:id="ZikhronYaakov"></place>
