@@ -12,10 +12,16 @@
                 <p>מהדורת XML תוייגה על ידי תלמידי הקורס "טקסט בעידן הדיגיטלי", אוניברסיטאת חיפה 2019.</p>
             </publicationStmt>
             <sourceDesc>
-                <p>	
-                    פינברג, אבשלום. "מכתבים לרבקה אהרונסון". פרויקט בן-יהודה. אין תאריך. 2019-03-20. https://bybe.benyehuda.org/read/6874</p>
-                <p>פינברג, אבשלום, and אמיר, אהרן. אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print.
-                </p>
+                <listPerson>
+                    <person xml:id="AFeinberg"></person>
+                    <person xml:id="RivAaronsohn"></person>
+                    <person xml:id="SarAaronsohn"></person>
+                </listPerson>
+
+                <bibl>
+                    פינברג, אבשלום. "מכתבים לרבקה אהרונסון". פרויקט בן-יהודה. אין תאריך. 2019-03-20. https://bybe.benyehuda.org/read/6874</bibl>
+                <bibl>פינברג, אבשלום, and אמיר, אהרן. אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print.
+                </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -29,7 +35,7 @@
                  <publicationStmt>
                      <p><!-- ... --></p>
                  </publicationStmt>
-                 <sourceDesc>
+                 <sourceDesc> 
                      <p><!-- ... --></p>
                  </sourceDesc>
              </fileDesc>
@@ -52,47 +58,29 @@
                  <div>
                     <opener>
                         <dateline><date>3.12.1911</date></dateline>
-                         
                         <salute>משאת-נפשי הרחוקה, שלום.</salute>
                     </opener>
-                         
-                     <p>  אייך, רבקתי? מדוע החיים כל-כך אכזריים ומדוע את כל-כך רחוקה? הלא ברגע הזה היה לי להגיד לך כל-כך הרבה בלטיפות, במלים ובדמעות, ועל מקום זה צריך לשרוט על הנייר…
-                         
-                         שרב. מחפשים צל. הנה המנוחה. ולמען הגיענה צריך לעבור דרך ביצת-יוון – רפש הכּתב.
-                         
+                     <p>  אייך, <persName ref="#RivAaronsohn">רבקתי</persName>? מדוע החיים כל-כך אכזריים ומדוע את כל-כך רחוקה? הלא ברגע הזה היה לי להגיד לך כל-כך הרבה בלטיפות, במלים ובדמעות, ועל מקום זה צריך לשרוט על הנייר…
+                         שרב. מחפשים צל. הנה המנוחה. ולמען הגיענה צריך לעבור דרך ביצת-<placeName>יוון</placeName> – רפש הכּתב.
                          הגיון של חיים.
-                         
-                         
-                         
                          ***
-                         
                          אתמול כבר נגמר אִלחַמדוּ-לִלָה <note>50</note>
                          עם ידי.
-                         
                          שתי שברי עצם קטנות הוציאו לי. אחת – כך, השנית אתמול עם חלוֹרוֹפוֹרם.
-                         
                          הרופא יעץ זאת כי לא רצה להסב מכאובים בלי תועלת.
-                         
-                         הכל טוב. את השאר יגמרו בחדרה.
-                         
+                         הכל טוב. את השאר יגמרו <placeName>בחדרה</placeName>.
                          חושב אני כי אשוב הביתה ב- 5 ח“ז או 7 ח”ז. (שלישי או חמישי).
-                         
-                         
-                         
                          ***
-                         
                          ומתי אוֹחזך בזרועותי?
-                         
                          לעת-עתה במחשבתי מחבּק אני את גופך הקט את נשמתך הגדולה את לבך היקר, אני מאַמצם לשׂפתי ולוחש: שלי, שלי, שלי!
                      </p>
                      <closer>
                          <salute>
                        שלום, אלילתי,
                          </salute>
-                         <signed><persName>                         
-                         אבשלום
+                         <signed><persName ref="#AFeinberg">
+                                                      אבשלום
                          </persName></signed>
-                         
                      </closer>
                  </div>
              </body>
@@ -136,37 +124,347 @@
                          </salute>
                      </opener>
                       <p>   אני כורע לפניך, שׂם ראשי בחיקך, ומחבקך…
-                         
                          אלה היו החלומות של שלשום.
-                         
                          העיקה על לבי כל המרירות שנצברה, נשׂרפו שׂפתי מאֵש הנשיקות שנאגרו…
-                         
                          היה לי כל-כך הרבה להגיד ולקבל.
-                         
                          באת… ברחת.
-                         
                          לא כעסתי, אפרוחי, אל תחשדיני. רק הייתי כאיש שגזלו ממנו אוֹשר שקיוה אליו זה כמה…
-                         
                          סלחי!
-                         
-                         שמעי, רבקה, מלה אחת ואחריה לא יהיה להגיד עוד:
-                         
+                         שמעי, <persName ref="#RivAaronsohn">רבקה</persName>, מלה אחת ואחריה לא יהיה להגיד עוד:
                          אני אוהב אותך, אוהב! אוהב! אוהב!
-                         
                          הלא את הילדה שכּולה שלי.
-                         
                          ולוּ גם יישׂרף לבּי ממך הריני מקבל באהבה.
                       </p>
                      <closer>
-                       
                          <salute>  ילדך, </salute>
-                         
                          <signed>
-                             <persName>אבשלום</persName></signed>
+                             <persName ref="#AFeinberg">אבשלום</persName></signed>
                      </closer>
                  </div>
              </body>
          </text>
      </TEI>
+    <TEI xml:id="Adir3">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc> 
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc xml:id="message3">
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1912-02-05">5.02.1912</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>[זיכרון יעקב]</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener>
+                        <dateline><date>5.2.1912</date> <placeName>,חדרה</placeName></dateline>
+                        <salute>                        חביבותי היקרות,
+                        </salute>
+                    </opener>
+                       <p>
+                        חמש עכשיו, לא כה בוקר קמתי. לשבת איחרתי הלילה. היום עם בהלותיו עם עינוייו ועם שאונו שולל ממני כל זכות לחשוב וכל יכולת לעבוד. וצריך ששעות ארוכות של לילה תעבורנה טרם אוּכל פנוֹת הנה והנה.
+                        בשובי ביום השבת מצאתי את אמי למשכּב. קדחת חזקה תקפתה. דבר פשוט, מובן, טבעי. הלא יצאתי מן הבית ואיך אפשר שאשוב וּבל תפגשני על סף ביתי איזה “שמחה”?! היום הוטב לה, אבל הלילה היה רע. איננה ישנה, מתהפכת ונאנחת על משכבה.
+                        ולבי כל השבוע מתכווץ, מתפתל, וחותר אליכן, ילדותי האהובות. הייתי נותן הרבה שעות של חיים למען לחיות את השעות המעטות האלה בקרבתכן. מתמרמר אני ולבי בוכה, ואזלת יד להושיע.
+                        ובימים האלה עוד קשתה עלי עבודת הכּליון שאני מכלה את מחשבותי והגיונותי הבאים ל“הפריע” ואשר אחת דתם להיחנק בהיולדם, וחושב אני וחושב. ונעה המכונה שם בקרבּי כאשר ינועו קפיצי שעון ממהר, צרוד העומד להיהרס.
+                        ומכּיוון שבּנשמה איננו מאמינים, זאת אומרת באַלמותה של כל נשמה פרטית. אם חושבים אנו כי הגוף – גוף הוא, גוש שהננו יודעים ראשיתו ואחריתו, יצירתו וחורבנו. ונשארה רק היא הנשמה אשר רק פעם אחת תחי – ומתה, ונעלמה ופסה והיתה כלא היתה. וגופות יצרו גופות שמראיהם אין קץ ומחצבתם – אחת… אולם איך תעזובנה הנשמות יורשים אחריהן?
+                        
+                        ועמדה השאלה:
+                        
+                        האם אהוֹב ואהוֹב, חשוֹב וחשוֹב אינם התמצית הכי עזה של החיים, האם אלה לא יתנו לנו מעט אל-מוות. האם לפני כלוֹתנו לא נוכל הגד: נותרנו! האם אחרינו לא יגידו חיוּ!…?
+                        
+                        והמדוע?! הנצחי מנקר במוחי.
+                        
+                        
+                        
+                        ***
+                        
+                        אולם מי לנו יערוב כי לא נזלנו יחד במעיין הנשמות, כי יום יבוא לא נתעה יחד בממלכת הצללים?…
+                        
+                        אבל מה שבּטח הוא כי הנני לוחץ אתכן, יקירותי, אל לבי, ככה, ככה!
+                        
+                        
+                        
+                        
+                       </p>
+                    
+                    <closer>
+                        <salute>
+                            ילדכן,
+                        </salute>
+                        <signed><persName ref="#AFeinberg">
+                            אבשלום
+                        </persName></signed>
+                        <note> <persName ref="#RivAaronsohn">רבקה</persName>!
+                            
+                            הגליון הראשון של חבילת הנייר היתה התחלת מכתב אליך לפני שבועיים. הרי “הוספה”! כתובנה לי, אנא, כתובנה לוּ גם מלה.
+                        </note>
+                        <salute>שלכן,
+                        </salute>
+                        
+                        <signed><persName ref="#AFeinberg">
+                            א.פ.
+                         
+                        </persName></signed>
+                    </closer>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Adir4">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc><profileDesc>
+                <correspDesc xml:id="message4">
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1912-03-09">09.03.1912</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונוסון</persName>
+                        <placeName>[זיכרון יעקב]</placeName>
+                    </correspAction>
+                </correspDesc></profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener>
+                        <dateline>
+                            <date>  9.3.1912</date> <placeName>,חדרה</placeName>
+                        </dateline>
+                        <time>אחה"צ 4</time>
+
+                        <salute>
+                            עוללי היקרים,
+                        </salute>
+                    </opener>
+                    
+                        <p>  
+                        באתי. אמא פה. שואלת מאד מאד עליכן ואודות האמצעים לראותכן. אני עייף קצת, וצריך ללכת להכין את העבודה למחר. אני כבר מתגעגע קצת. בפעם השנית אשׂים אתכן <placeName>בחוּרדז</placeName>' 70
+                        אחת מפה ואחת מפה. טוב? כבר מצאתי את מקום האיריס ובשובי כבר אביא.
+                        
+
+                        
+                    </p>
+                    <closer>
+                        <salute>  שלום לכן יקרות, </salute>
+                        <signed>
+                            <persName ref="#AFeinberg">אבשלום</persName></signed>
+                    </closer>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Adir5">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc> 
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc xml:id="message5">
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>[Unknown]</placeName>
+                        <date when="1912-03-14">14.3.1912</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>[זיכרון יעקב]</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener>
+                        <dateline><date>14.3.1912</date></dateline>
+                        <salute>תינוק שלי,</salute>
+                    </opener>
+                    <p>                          
+                        
+                        
+                        ישנת, אפרוחי, וגם לא כתבת לי כלום. אין דבר. היום לא… שכחתי אותך. יותר מדי אפילו 71 S’il est permis de s’exprimer ainsi.
+                        
+                        האדון <persName>אהרנסון</persName> כבר יאחר. הוא הבטיח לעבור פה בארבע, והנה כבר שש ועוד איננו. אבל אני הן ידעתי זאת תיכף. חבל לי רק שאַתן תחכּינה ותתרגזנה.
+                        
+                        היום הנני עייף, <persName ref="#RivAaronsohn">רבקתי</persName>, עייף מהכּל: מחיוֹת, מאהוֹב, מקווֹת מסבוֹל. אף שהנני משַׁקר ברגע הזה. לא עייף, בכל-זאת. לא מאהוֹב ולא מקווֹת. את יודעת, הלא בפניך, ילדת-זוהר שלי, אינני בוש כלל: הנה ברגע הזה, עם כאב-הראש ודאבון-הלב ועם כל הייאוש והפסימיזם, עוברים במוחי פנטסיות של ילדוּת, התרצי?
+                        
+                        אי. גנים עם פלגים מתפרצים ומדלגים. אביב ושירת זמיר בחביון השׂיח. ירח שוקט ומשתקף נוסע ביריעת התכלת. על האי “אנחנו”. גם את<persName ref="#SarAaronsohn"> שרה</persName> נקח, גם את צלה, גם את לל 72נביא מארצות רחוקות, ועוד נערים אחדים טובים ונערות אחדות חביבות.
+                        
+                        ושם ישנוֹ הכל. לא יצטרך לאכול ולא לישון ולא לדאוג, ולא לבכות. גם למוּת לא יצטרך. הנערים בבוא יומם ושוּנו לתמר ירק-הצמרת ואצלם תתאבּנה חביבותיהם לפסלי שיש לבן, תמר ופסלוֹ אהוב ואהובתו. האם אינך רואה את הגנים ואת האור המצליף. האינך שומעת לחישת הגלים, האם ריח הפרחים לא עולה באַפּך?
+                        
+                        לא?
+                        
+                        אהה! ציפור-תכלת, איך לצודך? הלילה אתא, האדון א. בא,73 Je suis gros Jean comme devant צריך לחתום.
+                        
+                        כן! קחי את <persName ref="#SarAaronsohn">שרה</persName>, נשקי כך-כך! כמו שהינך יודעת, עשי לה סימנים על מפרקתה וצווארה. חבּקי וחנקי אותה בכל כוחך. אנשאללה כשנעשה חשבון אשלם לך.
+                        
+                        מיליון…
+                        
+                    </p>
+                    <closer>
+                        <signed><persName ref="#AFeinberg">
+                            אבשלום
+                        </persName></signed>
+                    </closer>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Adir6">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc><profileDesc>
+                <correspDesc xml:id="message6">
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1911-06-19">19.06.1911</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונוסון</persName>
+                        <placeName>[זיכרון יעקב]</placeName>
+                    </correspAction>
+                </correspDesc></profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener>
+                        <dateline>
+                            <date>19 יוני 1911 </date> <placeName>חדרה.</placeName>
+                        </dateline>
+                        <salute>
+                            רבקתי,
+                        </salute>
+                    </opener>
+                        
+                                               <p>
+                        הרגעים ספורים. אל תחריבי את מעטפתי האחרונה. האיש שיעיז ללעוג לבטחוני לא יינקה. מקווה הנני שטעית.
+                        
+                        
+                        
+                        ***
+                        
+                        לא אלך אתך על קברי אבות לבכות. את יהודונית! אתמול כבר הייתי אצל ידידים ערבים תקיפים, וכל מי שיש לו השפעה בחוג המוסלמים בחיפו ישתדל להחריב את הקנייה הארורה הזאת. ואם לא נצליח, אז נעבוד ע"י הממשלה שיכריזו את <placeName>קיסריה</placeName> אדמת מבצר, ועשה נעשה להם את מה שעשו לנו עם <placeName>עתלית</placeName>.
+                        
+                        צאצאי <persName>בּר-כוכבא</persName>! לנששק, להילחם, לנצח או למות, אבל לא לבכות, ילדה!
+                         
+                    </p>
+                    <closer>
+                        <salute>  נשיקה לך, </salute>
+                        <signed>
+                            <persName ref="#AFeinberg">אבשלום</persName></signed>
+                        <note>שלום לשׂרתי ולאמך. הנני שולח את הסל ואת חפצי שַׁם.</note>
+                    </closer>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Adir7">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc> 
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc xml:id="message7">
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1911-06-22">22.06.1911</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>[זיכרון יעקב]</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener>
+                        <dateline><date>22 יוני 1911</date><placeName>חדרה,</placeName></dateline>
+                        <salute>ילדותי החביבות,</salute>
+                    </opener>
+                    <p>  
+                        
+                        אתן רואות איזה שאטר 16 אני. אמא איננה, בכל-זאת קיבלתי אורחים. הם סעדו אצלנו ולָנו אצלנו ועוד היו צריכים לאכול ארוחת-הצהריים, והנה בא האדון <persName>אהרנסון</persName> ויקחם.
+                        
+                        אודות הילדה – עשתה עלי רושם טוב. היא כלל לא טיפשה, גמרה גמנסיום. אבל כל זה שטות. העיקר הוא כי הפתעה טובה היתה בשבילי חמימותה בכל מה שנוגע לעניינים הלאומיים קַרבוה.
+                        
+                        אה! אחיותי הקטנות! לוּ הואלתן לעזוב את כל השטותים ולנסוע אתנו חרמונה היה כל-כך טוב ונעים. האדון אהרנסון חושב כמוני. פעם אחת היינה גוֹיוֹת, אמורנה: 17 Je m’en fiche! ובואנה פעם קטנה בחיים.
+                        
+                        לי תעשינה טובה פרטית בזאת. ההכנות תעכבנה את הנסיעה לימים אחדים שנחוצים לי מאד. אמרי: כן! שׂרתי, כותנות שֵׁם תיתפרנה גם בלעדיך, או הסדינים הנחוצים ל- ménage הצעיר. 18 ולך, <persName ref="#RivAaronsohn">רבקה</persName> קפואה, הלא כל-כך קל ונחוץ להגיד: כן! לחיצת-יד, ילדותי,
+                        
+                                           </p>
+                    <closer>
+                        <signed><persName ref="#AFeinberg">
+                            אבשלום
+                        </persName></signed>
+                    </closer>
+                </div>
+            </body>
+        </text>
+    </TEI>
      <!-- More TEI Documents -->
 </teiCorpus>
