@@ -3,180 +3,457 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
-     <teiHeader>
-         <fileDesc>
-             <titleStmt>
-                 <title>title of corpus</title>
-                 <author>author</author>
-             </titleStmt>
-	        <publicationStmt>
-	           <p>Publication Information</p>
-	        </publicationStmt>
-	        <sourceDesc>
-	            <p>פינברג, א'. (אין תאריך). מכתבים לרבקה אהרונסון. [גרסה אלקטרונית]. פרויקט בן-יהודה. נדלה בתאריך 2019-03-20. https://bybe.benyehuda.org/read/6874 </p>
-	            <p>פינברג, אבשלום, and אמיר, אהרן. אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print.</p>
-	        </sourceDesc>
-         </fileDesc>
-     </teiHeader>
-     <TEI xml:id="MyTextNumber1">
-         <teiHeader>
-             <fileDesc>
-                 <titleStmt>
-                     <title><!-- ... --></title>
-                     <author><!-- ... --></author>
-                 </titleStmt>
-                 <publicationStmt>
-                     <p><!-- ... --></p>
-                 </publicationStmt>
-                 <sourceDesc>
-                     <p><!-- ... --></p>
-                 </sourceDesc>
-             </fileDesc>
-             <profileDesc>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of corpus</title>
+                <author>author</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <listPerson>
+                        <person xml:id="AvishalomFienberg"/>
+                        <person xml:id="RivAaronsohn"/>
+               </listPerson>
+              <bibl> פינברג, אבשלום. "מכתבים לרבקה אהרונסון". פרויקט בן-יהודה. אין תאריך. 2019-03-20. https://bybe.benyehuda.org/read/6874 פינברג, אבשלום, and אמיר, אהרן. אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print. </bibl>
+                <listPlace>
+                    <place xml:id="Hadera"/>
+                </listPlace>            
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI xml:id="Nesreen1">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName>אבשלום</persName>
-                        <settlement>RAOUAM FRERES</settlement>
-                            <date when="1911-07-03">03.07.1911</date>
+                        <date when="1911-07-03">03.07.1911</date>
                     </correspAction>
-                        <correspAction type="received">
-                            <persName>רבקה</persName>
-                            <settlement>זכרון יעקוב</settlement>
-                        </correspAction>                                         
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName> Damas, RAOUAM FRERES Propri étaires GRAND HOTEL
+                            D’ORIENT</placeName>
+                        <date when="1911-07-03">3 juillet 1911</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>זכרון יעקוב</placeName>
+                    </correspAction>
                 </correspDesc>
-             </profileDesc>
-         </teiHeader>
-         <text>
-             <body>
-                 <div>
-                     <dateline>
-                         <placeName>      
-                             RAOUAM FRERES
-                             Propri étaires      
-                             GRAND HOTEL D’ORIENT
-                         </placeName>
-                         <date>1911.07.3</date>
-                     </dateline>
-                     <salute>רבקתי האהובה,</salute>
-                     <p>Damas, le 3   juillet 1911
-                         
-                         RAOUAM FRERES
-                         
-                         Propri étaires
-                         
-                         GRAND HOTEL D’ORIENT
-                         
-                         
-                         רבקתי האהובה,
-                         
-                         יושבים כולנו אל השולחן ומכבשים צמחים. כמובן אני חושב אודותיך. בין שני רגשות לבי פה פוסח, כאב לי מאד שלא באת אתנו, שאינך פה. ובכל-זאת, אחרי הכל היטב קשה הנסיעה בשביל המין היפה ולעתים קרובות שמח אני שלא באתן. למשל, היום הייתי מאושר כקוף צעיר שנמלט מבית אמו. הראיתי כשרונותי לסלעים ולעצים, דילגתי, טיפסתי, קטפתי, שתיתי מכל מעיין, וחושב אני כי כל הסלעים האלה שנתחבּבו כה עלי היו מאֵרת-נפשי לוּ העיזו לפגוע לא בדי הדרת-כבוד ברגליך החביבות. צריך בכל-זאת כוחות גבר והֶרגל לעייפוּת למען לעשות raid19 שכזה. אבל מה שייך, מתוך צערי אני מתגעגע לרגעים ככלב ממש. ועכשיו עוד יש ירח; ואנוכי אעיז לראות את קרח החרמון תחת אור הלבנה, ואת מה את עושה? אולי הינך עצובה, ילדה מרושעת?!… זאת מחשבה שמנקרת תדיר במוחי פה.
-                         
-                         
-                         
-                         ***
-                         
-                         נסיעתנו חלום יפה. הוא 20הנהו הקוסם שהינך יודעת. בר-שיחה, מהתלות, לימוד, והרחבת-הדעת. אמנם מכל האהבות המסוכּנות שבחיי זאת היא היותר מסוכנת, האהבה שהנני חש לאחיך. אני מתרגל לחברתו כ"כ מהר כמו לולא עזבתיו מיום היולדי. בלבי הצמא לדבריו: “מה הוא חושב? מה יאמר?” וכו'. רגש חביב ונורא. אני מכיר ומודה על זאת.
-                         
-                         
-                         
-                         ***
-                         
-                         היום הזכרנוך.
-                         
-                         אנוכי שמתי צמחים בניירות. רציתי לאמור כבשתי, אבל על זה הייתי מוכרח להוסיף: S’il est permis de s’exprimer ainsi.21
-                         
-                         אחיך הצטחק ואמר לי:
-                         
-                         רע, אבל עכשיו לא-כלום, תראה כשנשוב ונפלת בידי רבקה, אז תהיה “אין גלות”, 22הלא הינך יודע?…
-                         
-                         כן, אני יודע… גם אני בלבי הצטחקתי. תבוא עלי גלות זו בלי גאולה, רש"ע! 23 ואפול-נא בידך, חביבתי, ובידי אחר אַל אפּוֹלה! סלחי שידידך דוב הנהו, אלמד עוד לרקוד בקרב הזמן…
-                         
-                         ועתה אל החרמון!
-                         
-                         אחיך מאיים באחותו הקטנה, ומאיים הוא בחרמונו הקר.
-                         
-                         אם אקפא שם למוות, הינך מתבקשת לבוא על קברי. במקום שיהיה קרח נמס, תביני כי שם היה לבי.
-                         
-                         איך לגמור?
-                         
-                         הלא את שונאת ש… אבל באמת אחת עוד לא למדתי, להתאפק מלהגיד: “שנאתיך!” או “אהבתיך!”
-                         
-                         אינך רוצה בי, אינני מעיז לאמור: “שלך”.
-                         
-                         מצב קשה!
-                         
-                         שלום רבקה’לה
-                         
-                         אבשלום
-                     </p>
-                     <closer>
-                         <signed>אבשלום</signed>
-                         שלום רבקה’לה             
-                     </closer>
-                 </div>
-             </body>
-         </text>
-     </TEI>
-     <TEI xml:id="MyTextNumber2">
-         <teiHeader>
-             <fileDesc>
-                 <titleStmt>
-                     <title><!-- ... --></title>
-                     <author><!-- ... --></author>
-                 </titleStmt>
-                 <publicationStmt>
-                     <p><!-- ... --></p>
-                 </publicationStmt>
-                 <sourceDesc>
-                     <p><!-- ... --></p>
-                 </sourceDesc>
-             </fileDesc>
-             
-             <profileDesc>
-                 <correspDesc>
-                 <correspAction type="sent">
-                     <persName>אבשלום</persName>
-                     <settlement>חדרה</settlement>
-                     <date when="1911-07-28">1911.07.28</date>
-                 </correspAction>
-                 <correspAction type="received">
-                     <persName>רבקה</persName>
-                     <settlement>זכרון יעקוב</settlement>
-                 </correspAction>
-             </correspDesc>
-             </profileDesc>
-         </teiHeader>
-         <text>
-             <body>
-                 <div>
-                     <dateline>
-                         <placeName>חדרה</placeName>
-                         <date>1911.07.28</date>
-                     </dateline>
-                     <salute>ילדותי המאד אהובות,</salute>                                                                
-                     <p>
-                         חדרה. יום ו', 28 יולי 1911
-                         
-                         ילדותי המאד אהובות,
-                         
-                         אתמול העיר אותי משנתי ברד של נשיקות. חשבתי – חלום. פקחתי עין וראיתי שכדאי לפתוח גם את השנית, יען שהילדה היותר טובה שמדן ועד באר-שבע עמדה אצל מיטתי: בבית טוב עכשיו. צלצל 24לא הביאה אתה מתנה. רק האדון מושנזון (המורה הצרפתי שהתוודעתן אליו אצל הופנקו) 25בא אתה ואנחנו שמחים לעצרו זמן-מה אצלנו.
-                         
-                         אני משתדל להירתם שוב בעבודה, והדבר פחות… קל ממה שהינכן חושבות. יהודה זַלדִין ממהר לנסוע, על כן הנני מוכרח להגביל את מכתבי, תקוותי חזקה שלא תאלצנה אותי לכתוב. את, שרה, הילדה היותר רעה שאני מכיר. מה היה לוּ באת אלינו מעט? האם העולם היה נחרב או החתונה מתאחרת חס-ושלום?…
-                         
-                         עם צלה כבר נכנסתי ב- Diplomatische unterhandkungen26 אודות התארחות אצלכן. אותה יהיה קל לפתות, את אמי ואבי אולי פחות. בכלל אנחנו מסדרים complot27 (צלה בראש!) שאמא תסע דמשׂקה ושהעלמה תישאר עקרת-הבית. נראה.
-                         
-                         בכל-אופן מרשים לכן לבוא ביום הראשון עם החוואג’ה, למען לטכּס עצה. לעת עתה שלום! ובכל לבי…
-                         
-                         שלום רב-רב לכולכם
-                         
-                         אבשלום</p>
-                     <closer>
-                         <signed>אבשלום</signed>
-                         שלום רב-רב לכולכם                        
-                     </closer>
-                 </div>
-             </body>
-         </text>
-     </TEI>
-     <!-- More TEI Documents -->
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <dateline>
+                        <placeName>Damas RAOUAM FRERES Propri étaires GRAND HOTEL D’ORIENT
+                        </placeName> , le <date>3 juillet 1911</date>
+                    </dateline>
+                    <salute>רבקתי האהובה,</salute>
+                    <p> יושבים כולנו אל השולחן ומכבשים צמחים. כמובן אני חושב אודותיך. בין שני רגשות
+                        לבי פה פוסח, כאב לי מאד שלא באת אתנו, שאינך פה. ובכל-זאת, אחרי הכל היטב קשה
+                        הנסיעה בשביל המין היפה ולעתים קרובות שמח אני שלא באתן. למשל, היום הייתי
+                        מאושר כקוף צעיר שנמלט מבית אמו. הראיתי כשרונותי לסלעים ולעצים, דילגתי,
+                        טיפסתי, קטפתי, שתיתי מכל מעיין, וחושב אני כי כל הסלעים האלה שנתחבּבו כה עלי
+                        היו מאֵרת-נפשי לוּ העיזו לפגוע לא בדי הדרת-כבוד ברגליך החביבות. צריך בכל-זאת
+                        כוחות גבר והֶרגל לעייפוּת למען לעשות raid19 שכזה. אבל מה שייך, מתוך צערי אני
+                        מתגעגע לרגעים ככלב ממש. ועכשיו עוד יש ירח; ואנוכי אעיז לראות את קרח החרמון
+                        תחת אור הלבנה, ואת מה את עושה? אולי הינך עצובה, ילדה מרושעת?!… זאת מחשבה
+                        שמנקרת תדיר במוחי פה. *** נסיעתנו חלום יפה. הוא 20הנהו הקוסם שהינך יודעת.
+                        בר-שיחה, מהתלות, לימוד, והרחבת-הדעת. אמנם מכל האהבות המסוכּנות שבחיי זאת היא
+                        היותר מסוכנת, האהבה שהנני חש לאחיך. אני מתרגל לחברתו כ"כ מהר כמו לולא עזבתיו
+                        מיום היולדי. בלבי הצמא לדבריו: “מה הוא חושב? מה יאמר?” וכו'. רגש חביב ונורא.
+                        אני מכיר ומודה על זאת. *** היום הזכרנוך. אנוכי שמתי צמחים בניירות. רציתי
+                        לאמור כבשתי, אבל על זה הייתי מוכרח להוסיף: S’il est permis de s’exprimer
+                        ainsi.21 אחיך הצטחק ואמר לי: רע, אבל עכשיו לא-כלום, תראה כשנשוב ונפלת בידי
+                        רבקה, אז תהיה “אין גלות”, 22הלא הינך יודע?… כן, אני יודע… גם אני בלבי
+                        הצטחקתי. תבוא עלי גלות זו בלי גאולה, רש"ע! 23 ואפול-נא בידך, חביבתי, ובידי
+                        אחר אַל אפּוֹלה! סלחי שידידך דוב הנהו, אלמד עוד לרקוד בקרב הזמן… ועתה אל
+                        החרמון! אחיך מאיים באחותו הקטנה, ומאיים הוא בחרמונו הקר. אם אקפא שם למוות,
+                        הינך מתבקשת לבוא על קברי. במקום שיהיה קרח נמס, תביני כי שם היה לבי. איך
+                        לגמור? הלא את שונאת ש… אבל באמת אחת עוד לא למדתי, להתאפק מלהגיד: “שנאתיך!”
+                        או “אהבתיך!” אינך רוצה בי, אינני מעיז לאמור: “שלך”. מצב קשה! </p>
+                    <closer> 
+                        שלום רבקה’לה 
+                        
+                        <signed><persName ref ="AvishalomFienberg">אבשלום</persName></signed>
+                    </closer>
+
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Nesreen2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <date when="1911-07-28"> 28 יולי 1911</date>
+                    </correspAction>
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1911-07-28"> 28 יולי 1911</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>זכרון יעקוב</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <dateline>
+                        <date> יום ו 28 יולי 1911</date>
+                        
+                    </dateline>
+                    <salute>ילדותי המאד אהובות,</salute>
+
+                    <p> אתמול העיר אותי משנתי ברד של נשיקות. חשבתי – חלום. פקחתי עין וראיתי שכדאי
+                        לפתוח גם את השנית, יען שהילדה היותר טובה שמדן ועד באר-שבע עמדה אצל מיטתי:
+                        בבית טוב עכשיו. צלצל 24לא הביאה אתה מתנה. רק האדון מושנזון (המורה הצרפתי
+                        שהתוודעתן אליו אצל הופנקו) 25בא אתה ואנחנו שמחים לעצרו זמן-מה אצלנו. אני
+                        משתדל להירתם שוב בעבודה, והדבר פחות… קל ממה שהינכן חושבות. יהודה זַלדִין
+                        ממהר לנוע, על כן הנני מוכרח להגביל את מכתבי, תקוותי חזקה שלא תאלצנה אותי
+                        לכתוב. את, שרה, הילדה היותר רעה שאני מכיר. מה היה לוּ באת אלינו מעט? האם
+                        העולם היה נחרב או החתונה מתאחרת חס-ושלום?… עם צלה כבר נכנסתי ב-
+                        Diplomatische unterhandkungen26 אודות התארחות אצלכן. אותה יהיה קל לפתות, את
+                        אמי ואבי אולי פחות. בכלל אנחנו מסדרים complot27 (צלה בראש!) שאמא תסע דמשׂקה
+                        ושהעלמה תישאר עקרת-הבית. נראה. בכל-אופן מרשים לכן לבוא ביום הראשון עם
+                        החוואג’ה, למען לטכּס עצה. לעת עתה שלום! ובכל לבי… </p>
+                    <closer> שלום רב-רב לכולכם <signed><persName ref ="AvishalomFienberg">אבשלום</persName></signed>
+                    </closer>
+
+
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Nesreen3">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <date when="1912-09-27">27.9.1912</date>
+                    </correspAction>
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1912-09-27">27.9.1912</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>זכרון יעקוב</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <dateline>
+                        <date>27.9.1912</date>
+                    </dateline>
+                    <salute>ילדת לבבי, חביבתי היקרה, שלום! </salute>
+
+                    <p> בקשה לי אליך. בשביל הנסיעה של יום-א' צריך לנו עגלה גדולה ופה אין להשיג. ע“כ
+                        החלטנו לחפש עגלה (בלי סוסים) בזכרון. אִמרי זאת למנשה 95בשמי והזכיריהו כי
+                        עגלות כאלה יש להשכיר אצל נַיימן 96, אצל איכר אחד היושב סמוך לגורן (אינני
+                        יודע מה שמו, אבל מנשה יודע מי הוא יען כי פעם נסעתי עם בלנק עם עגלה זו
+                        לחדרה), ואולי גם אצל אַריזוֹן. יעשה אתם מנשה מחיר יומי ויאמר להם שאת העגלה
+                        יקח במוצ”ש וישיב ביום השני או השלישי. אז אשלח את הסוסים בשבת בערב לקחתה
+                        ונסענו מפּה ביום הראשון. אינני יודע אם באופן כזה אוּכל לבוא אליך לשבת, אבל
+                        ביום-ב' אסע מיפו ישר אליך, וגם זו לטובה. הנני מקווה כי מנשה יסדר את הכל
+                        בכי-טוב וכי לא מאוחר מיום השני נתראה. מה שלומך את, חיי רוחי? הלא יש כבר
+                        נצחיוּת שלא ראיתיך ואני שוב אותו הסמרטוט שהינך שונאת. עד שימצאו ויסדרו מה,
+                        כתבי לי מכתב יפה וגדווול… </p>
+                    <closer> תַכַּה [ככה]. הנני בולע אותך ומחניק אותך בחפזון (יען שצריך לשלוח את
+                        השליח), <signed><persName ref ="AvishalomFienberg">אבשלום</persName></signed>
+                    </closer>
+
+
+
+
+
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Nesreen4">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <date when="1912-09-27">27.9.1912</date>
+                    </correspAction>
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1912-09-27">27.9.1912</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>זכרון יעקוב</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <dateline> 27.9.1912 </dateline>
+                    <salute>ילדת לבבי</salute>
+                    <p> כולנו עוד צוהלים וצוחקים מסגנונך הבהיר והמדוּיק. אולם לבל תשלחי אלינו, הנני
+                        שולח שוב אליך. הבנתי כך: אם לא תבוא שום ידיעה מצדנו יבוא הנה ר' חוּנַה
+                        במוצ"ש. הענין כך: אינני חושב אם יקר או לא יקר 50 פראנק, אבל העסק שונה לגמרי.
+                        כולנו נוסעים ביום הראשון, ואני החלטתי לשוב תיכף מיפו ולהיות פה (או מוטב עוד
+                        אצלך ביום השני, בכל-אופן לא יותר מאוחר מיום-ג'). ביפו אני צריך לקנות אלף
+                        דברים ולהביאם הנה. צריך אני לתקן את מושכות הסוסים ולקנות חדשים ולזאת נחוצים
+                        הם לי ליפו, ובכל-אופן 3 עומדים עתה מבלי לעשות כלום. ולמען כל הקוֹמפוֹרט הזה
+                        נחוצים לי סוסינו-אנו ביפו (יוכל להיות כי אצטרך עוד ללכת ראשונה) 97. על כן
+                        רוצה אני מאד שהעגלה תהיה דווקא זכרונית למען שאוכרח להשיבה ואגב-אורחא כבר
+                        נתראה. ומה עם עגלת ליבוביץ? אם אין עגלה אז אין דבר. נסע או בשתי קטנות מפה,
+                        או מחר בלכתי לתול-כרם אקח שם אחת. *** קרה לי מקרה מוזר ולא-נעים. על צווארי
+                        ופני עולים בוּטוֹנִים [חטטים] מכוערים עד למאד, ושושנה אומרת כי זאת עבודתו של
+                        הסַפָּר אָריזוֹן. גם אני מאמין כך, אבל זה לא-כלום. דואג אני מאד… לך, פן
+                        הידבקו בך. סלחי לי זאת, אבל כתבי לי אם לא חשת כלום. יען שהנני חושב כי ע"י
+                        נשיקה אפשר להידבק. *** עני לי. היי בריאה ושלמה והשיגי עגלה ואז אשוב בה אליך.
+                        שלום רב לאבא וחן-חן רב לו. שלום מכולם. </p>
+                    <closer> ולך תהום נשיקות, אבשלום </closer>
+
+
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Nesreen5">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <date when="1912-10-08">8.10.1912</date>
+                    </correspAction>
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1912-10-08">8.10.1912</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>זכרון יעקוב</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <dateline><date>8.10.1912</date></dateline>
+
+                    <salute>אהובת לבבי,</salute>
+                    <p> פה הכל כמו שהיה. בדידות ועבודה. אמא, כמובן, עוד ביפו. זה-עתה קיבלתי מכתב
+                        ממנה כי רוצה היא כבר לבוא ביום הראשון. אולם לי אין חשק. הרופא נסע מפה לזמן
+                        בלתי-קצוב, ובמצב כזה למען בריאות אמי והשקט שלי מוטב שלא תהיה פה. אנסה לכתוב
+                        לה בנוסחא זו. כאשר כבר אמרתי לך, הנני בריא ושלם, עובד אני כשד בימים
+                        האחרונים… נכנס אני בהרבה החלטה וגם במעט… אירוניה ומרירות לתוך מה שקוראים
+                        האנשים “החיים”. שם יפה להוויה מכוערה, פי! אולם אין להתאונן: צרות ועבודה
+                        במידה מספקת, וסוף הגאולה לבוא! *** ואי-לאלה עוד רגשות שונים. מהשקפה טכנית,
+                        הבדידות טובה: המחשבות כל-כך ברורות וגם העבודה הולכת יותר טוב. בלי מפריע,
+                        ובלי הטיראניה [העריצות] של ההרגלים המושבעים והשעות הקבועות לכּל. מה שנוגע
+                        לרוחניוּת, זה פחות טוב. מר לי מאד בזמן האחרון, ומחלתי הישנה שבה להתגבר. בערב
+                        בערב בחדר הגדול, החשוך, הריק, המילַנכוליה תוקעת ציפרניה ברגשותי ובמחשבתי
+                        ומפתה ומוצצת עד אפיסת-כוחות. ומתעמקת המחשבה עד לכאב, ומשתחר החלום עד שפיכת
+                        דמעות-דם. ברגעים אלה עולה שוועתי ממעמקי הלב אל חלומות זוהר והתגשמותם. וחושב
+                        אני על הסמל של חלומותי אלה בגעגועי אל-מוּת. אשרי המחכה ויגיע… פעם (אולי…)
+                        עוד נספר בחדוָה על צרות ש“עברו”, כש“מחר” יהיה “אתמול”. </p>
+                    <closer> די. אלפי נשיקות חמות ולבי החשוך לרגליך האורות, <signed><persName ref ="AvishalomFienberg">אבשלום</persName></signed>
+                    </closer>
+
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Nesreen6">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <date when="1912-11-02">2.11.1912</date>
+                    </correspAction>
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1912-11-02">2.11.1912</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>זכרון יעקוב</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                   <dateline><date>2.11.1912</date></dateline>
+
+                        <salute>דברבוֹן שלי,</salute>
+                     <p>    
+                        עכשיו שבע. בעשר לערך ארתום את עגלתנו ואסע, וצריך לחשוב כי ב-12 אהיה אצלכם. אני אסע ישר דרך מימַס 98ואנסה לעבור. אם יהיה אי-אפשר אשוב לדרך מַרָח, ואז יארך בשעה לערך יותר.
+                        
+                        לבי דופק בקרבי ושואל אני את עצמי על מי יפול הגורל לנסוע הנה. אבל הלא יודעת את כי שׂרתי אורחת יקרה תמיד בביתנו וכי לא נתאבּל אם עיניה תאירנה פה יום או יומיים.
+                        
+                        בכל-זאת, היות יום-הולדתך ביום הראשון וכי לי יהיה אי-אפשר ללכת זכרונה, הייתי רוצה מאד מאד לחבּקך בזרועותי פה…
+                        
+                        מה עוד? מה להגיד לך? החדשות ישנות הן והישנות לך ידועות מכבר.
+                        
+                        הנני ממעך אותך אל לבי ושׂפתי,
+                        </p>     
+                    <closer>  
+                        שלך,
+                        
+                      <signed><persName ref ="AvishalomFienberg">אבשלום</persName></signed>  
+                    </closer>
+
+                        
+               
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Nesreen7">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <date when="1912-12-10">10.12.1912</date>
+                    </correspAction>
+                    <correspAction type="sent">
+                        <persName>אבשלום פיינברג</persName>
+                        <placeName>חדרה</placeName>
+                        <date when="1912-12-10">10.12.1912</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>רבקה אהרונסון</persName>
+                        <placeName>זכרון יעקוב</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <dateline><date>  10.12.12</date></dateline>
+                        
+                      <salute>ילדותי היקרות,</salute>
+                                              
+                       <p> 
+                        אני כותב לכן ברחוב. יש הזדמנות (או חצי הזדמנות) והנני ממהר.
+                        
+                        מה שלומך, יַמקוּטר? אם הוטב, הנני מוסר לך בשם שושנה הצעה שכזו. יש עתה תחת ידה עדר שלם של מתפּרוֹת וחייטוֹת (ללבנים ושמלות זולות ויקרות וכו') אשר נשמעות לה ועושות את כל רצונה. מבקשת היא אותך שתבואי כל זמן שהינה פה (בעוד 8–12 ימים תסע), אם תרצי הביאי אתך משלך אריג, וָלא – ומצאת פה מבוקשך. בלבד שתבואי. שערי בנפשך כי אתמול ב-9 בבוקר לקחה הג' מלמד מידה לצלה ובערב שעתיים לפני הנשף כבר היה הכל מוכן.
+                        
+                        ובכן החליטי…
+                        
+                        כולם דורשים בשלומכן. שושנה אומרת שמוטב לשלם דמי תפירה מאשר לקנות אריגים יקרים, כי המוֹדָה משתנה יום-יום.
+                        </p>
+                    <closer>    
+                        נשיקות חמות,
+                        
+                        שלכן
+                        
+                      <signed><persName ref ="AvishalomFienberg">אבשלום</persName></signed>  
+                    </closer>
+
+                </div>
+            </body>
+        </text>
+    </TEI>
 </teiCorpus>
