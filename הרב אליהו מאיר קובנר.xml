@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="eng">Tidhar - Encyclopedia of the founders and builders of Israel </title>
+           <respStmt>
+               <resp>
+                  <name>Snir Cohen</name>
+                  <name>Snir Burkush</name>
+               </resp>
+               <orgName>BGU</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>DH CS Course in BGU year of 2019 semester alef</p>
+         </publicationStmt>
+         <sourceDesc>
+<bibl>Volume: #13 ,Page: 4217 ,URL: http://www.tidhar.tourolib.org/tidhar/view/13/4217</bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text xml:lang="heb">
+      <body>
+     <head> <persName>הרב אליהו מאיר קובנר</persName>
+
+</head>
+         <div><p> נולד י"ב אדר תרס"ב (1902) ברצ'יצה שברוסיה. לאביו ר'<persName> יוסף</persName> (מצד אביו נכד הרב הגדול ר' <persName>מרדכי</persName>
+
+<persName>אליעזר קובנר</persName> , מחבר ספר "קרני ראם" על מסכת פסחים ומצד אמו מצאצאי הגאון מווילנא) ולאמו <persName>ברכה-רבקה</persName> בת <persName>מרדכי קליאצ'קין</persName> .
+
+
+ למד בישיבות נובהרידוק, הומל, ביאליסטוק, ווארשה, שהתנהלו בשיטת המוסר בנוסח ישיבות "בית יוסף" מיסודו של "הסבא" מנובהרידוק. מתלמידיו ומשטת המוסר של הגאון ר'<persName> יוסף יואל הורביץ </persName> זצ"ל (שעצמותיו הובאו מקיוב לארץ).
+
+ ב-1932 נשא לאשה את<persName> גילה</persName> בת ר'<persName> דב רש"פ</persName> . המשיך בהרבצת תורה בישראל וביחד עם חבריו יסד ישיבות במלאווה ובאוסטרולנקה שבפולין, ובאחרונה יסד וניהל את ישיבת ''בית יוסף" בליבאווה שבלטביה.
+
+ עלה לארץ בר"ח אלול תרצ"ו. יסד את הישיבה "תפארת ציון" בבני-ברק, אח"כ ישיבת "פורת יוסף" ברחובות, אותה הוא מנהל עד היום. הישיבות בארץ יסד בהשפעת "חזון איש" זצ"ל. הישיבות הוציאו הרבה ת"ח המכהנים כרבנים וכמורים בארץ. ועוד ידו נטויה לכונן מוסדות תורה בשילוב עם לימוד מקצועות מלאכה, במיוחד לצעירי עדות המזרח.
+
+ צאצאיו:<persName> רייכל </persName> אשת הרב <persName>דוד-צבי אליאך, אסתר</persName> אשת הרב<persName> מרדכי קוקיא, שרה-דינה</persName> אשת הרב <persName>נח חפץ</persName> , <persName>חיים-עוזר, מרים </persName> אשת הרב <persName>יובל-יוסף אורנטליך-אפרתי.</persName>
+
+</p></div>
+         <div type="bibliogrphy">
+            <listBibl>
+<bibl>Volume: #13 ,Page: 4217 ,URL: http://www.tidhar.tourolib.org/tidhar/view/13/4217</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

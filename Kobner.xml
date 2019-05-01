@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+               <title level="a" xml:lang="heb">אבא,קובנר</title>
+               <title level="m">לקסיקון הקשרים לסופרים ישראלים</title>
+               <author xml:lang="heb">אלישע פורת</author>
+               <respStmt>
+                  <resp>
+                     <name>טל אהרון</name>
+                     <name>מרטין לוינסון</name>
+                  </resp>
+                  <orgName>BGU</orgName>
+               </respStmt>
+         </titleStmt>
+         <publicationStmt>
+         <publisher>
+            DH CS BGU Course
+         </publisher>
+          </publicationStmt>
+         <sourceDesc>
+            <bibl> Bibliographic information about the lexicon (We didin't find any bibliographic information about the lexicon) </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text> 
+      <body>
+       <head><persName><forename>אבא</forename> ,<surname>קובנר</surname>
+            (<date when="1987" type="death">1987</date>-<date when="1918" type="birth"></date>1918)
+            
+            <roleName>משורר, סופר ואיש ציבור</roleName></persName></head>
+         <div type="main">
+            <div type="bio">
+               <p n="1">
+                  נולד ב<placeName type="city" ref="http://sws.geonames.org/694423">סבסטופול</placeName> שב<geogName>חצי האי קרים</geogName> לאמו <persName>רוזה רחל</persName> לבית <surname>טאובמן</surname> ולאביו <persName>ישראל קובנר</persName>. עבר עם משפחתו 
+                  ל<placeName type="city" ref="http://sws.geonames.org/864485">ווילנה</placeName>, שם השלים את לימודיו התיכוניים ב<orgName type="School">גימנסיה &quot;תרבות&quot;</orgName>. בנערותו הצטרף לתנועת &quot;<orgName>השומר הצעיר</orgName>&quot; 
+                  והתעתד לעלות לארץ <placeName type="Country" ref="http://sws.geonames.org/294640">ישראל</placeName>. ב-<date when="1938">1938</date> החל ללמוד בפקולטה לאמנות ב<orgName type="University">אוניברסיטה שבווילנה</orgName>, ובשל כך דחה 
+                  את עלייתו ארצה. עם כיבוש <placeName type="Country">פולין</placeName> בידי <placeName type="Country">גרמניה</placeName> הנאצית התייצב בין ראשי &quot;<orgName>השומר הצעיר</orgName>&quot; ב&quot;<orgName>ריכוז 
+                     השומרי</orgName>&quot; ב<placeName type="City" ref="http://sws.geonames.org/864485">ווילנה</placeName>, שהנהיגו את המוני הפליטים מ<placeName type="Country" ref="http://sws.geonames.org/798544">פולין</placeName>, וב-<date when="1941">1941</date>, כש<placeName type="City" ref="http://sws.geonames.org/864485">ווילנה</placeName> נפלה בידי הנאצים, הצטרף 
+                  להנהגת המחתרת היהודית בגטו.
+               </p>
+               
+               
+               
+               <p n="2">
+                  היה מהראשונים שהבינו את תוכנית ההשמדה הכוללת של יהודי <geogName type="Continent">אירופה</geogName> שהגו הגרמנים, ופירסם עם חבריו, 
+                  בראשית <date when="1942">1942</date>, את הכרוז הידוע: &quot;><persName>היטלר</persName> זומם להשמיד את כל יהודי <geogName type="Continent">אירופה</geogName>. על יהודי <placeName type="City">ליטא</placeName> הוטל להיות 
+                  הראשונים בתור. אל נלך כצאן לטבח! נכון, חלשים אנו וחסרי מגן, ואולם התשובה היחידה לאויב היא 
+                  התנגדות&quot;. משאפסו הסיכויים למרד בגטו <placeName ref="http://sws.geonames.org/864485" xml:id="recogito-0d3ebb8e-60b7-4c44-be07-6e02d6415193" cert="high">וילנה</placeName> בסוף <rs xml:id="recogito-727e6542-c24c-4589-a2a9-ab14f36404ca" type="event">1943</rs>, יצא אל היערות והצטרף ליחידת פרטיזנים 
+                  יהודית, שלחמה תחת פיקוד סובייטי. עם חיסול הגטו בסוף <date>ספטמבר 1943</date> נרצחה אמו בבורות ההריגה של 
+                  <placeName type="Suburb" ref="http://sws.geonames.org/798544">פונאר</placeName>, ובזרועותיה נרצחה הילדה <persName>שלומית</persName>, בתו של אחיו <persName>גדליה</persName>. אחיו <persName>מיכאל</persName> נהרג כפרטיזן ביערות <placeName type="Village" ref="http://sws.geonames.org/624804">נארוץ'</placeName> 
+                  ב<date>אוקטובר 1943</date>. משנולדו ילדיו קרא להם על שם הנרצחים.
+               </p>
+               
+               
+               
+               <p n="3">
+                  <surname>קובנר</surname> וחבורתו היו בין ראשוני השבים לחורבות <placeName type="City" ref="http://sws.geonames.org/864485">וילנה</placeName> עם <orgName type="Army">הצבא האדום</orgName> ב-<date when="1944">1944</date>, והם סייעו בהצלת שרידי 
+                  אוצרות התרבות היהודית בעיר. מיד עם השחרור החל לארגן את <orgName>תנועת &quot;הבריחה&quot;</orgName>, יציאה חפוזה של שרידי 
+                  היהודים מ<placeName type="Federation" ref="http://sws.geonames.org/2017370">ברית המועצות</placeName> ומ<placeName type="Country" ref="http://sws.geonames.org/798544">פולין</placeName> לנמלי <placeName type="Country" ref="http://sws.geonames.org/798549">רומניה</placeName>, בדרך לעלייתם ארצה. הוא התייצב בראש חבורת הנקם, 
+                  <rs xml:id="recogito-e3dfd827-99b0-451e-86f7-a73c554a1c02" type="event">די&quot;ן – דם ישראל נוטר</rs> – חבורה קטנה אך נבחרת של יוצאי הפרטיזנקה בעיקר, ששמה לה למטרה לנקום 
+                  ולהשמיד נאצים. <surname>קובנר</surname> נשלח במסווה של חייל הבריגדה לארץ <placeName type="Country" ref="http://sws.geonames.org/294640">ישראל</placeName>, כדי להשיג אמצעי לחימה. ב<date>דצמבר 
+                     1945</date> נתפש על ידי הבריטים על האונייה בדרכו חזרה ל<geogName type="Continent" ref="http://pleiades.stoa.org/places/1001887">אירופה</geogName>, נעצר, נחקר ונכלא. הוא נשלח לבית הסוהר 
+                  ב<placeName type="City" ref="http://sws.geonames.org/360631">קהיר</placeName> וישב שם כחודשיים. אחר כך הועבר לבית הסוהר ב<placeName type="City" ref="http://sws.geonames.org/293198">ירושלים</placeName>, שבו היה כלוא עד <date>מרס 1946</date>. בתום 
+                  מאסרו הצטרף עם חלק מחברי <orgName>&quot;הנקם&quot;</orgName> ל<placeName type="Kibutz" ref="http://sws.geonames.org/295232">קיבוץ עין החורש</placeName>, שבו חי עם משפחתו כל שנותיו.
+               </p>
+               
+               
+               
+               
+               <p n="4">
+                  בסוף <date when="1947">1947</date> קרא לו <persName>שמעון אבידן</persName>, מפקד <orgName type="Army">חטיבת גבעתי</orgName>, לשרת כקצין התרבות וההסברה של החטיבה. בעת 
+                  המלחמה כתב <persName>קובנר</persName> את &quot;<name type="Article">הדפים הקרביים</name>&quot; שהתפרסמו מאוד, ובהם נתן ביטוי חריף ביותר לשנאה אל 
+                  הפולש המצרי ולהכרח לעצור את התקדמותו. &quot;<name type="Article">הדף הקרבי</name>&quot; שעסק בנפילת <placeName type="Kibutz" ref="http://sws.geonames.org/294640">קיבוץ ניצנים</placeName> נכתב בחריפות 
+                  מיוחדת, ושימש סלע מחלוקת בינו לבין מתנגדיו עד מותו. באחד מ&quot;<name type="Article">דפי הקרב</name>&quot; כתב: &quot;מוות לפולשים!!! 
+                  להרבות בשבויים... אויב שבוי חשוב מפגר מת. לא לפגוע בנכנעים. לאסוף שוחרי שלום. מוות לפולש!!!&quot;
+               </p>
+               
+               
+               
+               <p n="5">
+                  <surname>קובנר</surname> התגלה לציבור בארץ ובעולם בעת משפט <surname>אייכמן</surname> (<date when="1961">1961</date>). עדותו המרשימה עוררה עניין מחודש באיש 
+                  וביצירתו. דמותו המיוחדת, דבריו הנוקבים והביוגרפיה המרתקת שלו משכו אליו עיתונאים וצלמים בעת 
+                  המשפט. חלקים מעדותו כינס לימים בקובץ מסותיו <name type="Testamony">על הגשר הצר</name>, והם משמשים גם היום חומר חינוכי 
+                  והיסטורי חשוב.  
+               </p>
+            </div>
+           
+            <div type="publications">
+               <p n="1">
+                  ב-<date when="1941">1961</date> היה בין יוזמי ומקימי &quot;<name type="Museum">מורשת</name>&quot;, בית העדות ע&quot;ש <persName>מרדכי אנילביץ</persName>, שהפך למוסד הנצחת השואה 
+                  והגבורה של הקיבוץ הארצי <orgName>השומר הצעיר</orgName> ב<placeName type="Settelment" ref="http://sws.geonames.org/294640">גבעת חביבה</placeName>. אף כי לא נטה לתפקידים ציבוריים בתחום 
+                  הספרות, נענה לקריאתם של סופרים ומשוררים וקיבל על עצמו להיות יו&quot;ר אגודת הסופרים העבריים 
+                  (<date when="1972">1972</date>). הוא נתקל בקשיים ובהתנגדות למהלכיו, ואחרי כשנתיים הפסיק את פעילותו והתפטר. ב-<date when="1971">1971</date> גויס 
+                  על ידי ד&quot;ר <persName>נחום גולדמן</persName> ו<persName>מאיר וייסגל</persName> לפרויקט &quot;<name type="Project">בית התפוצות</name>&quot; ב<placeName type="City" ref="http://sws.geonames.org/293397">תל אביב</placeName>. במשך כחמש-עשרה שנים היה 
+                  בין מעצבי הבית, והשפעתו על תוכנו של המוזיאון היתה גדולה. הוא מצא בפעילות זו כעין נחמה פורתא על 
+                  שלא עלה בידו להקים מוסד זיכרון משותף של התנועות הקיבוציות, וגם לא מוסד זיכרון ראוי של &quot;<orgName>השומר 
+                     הצעיר</orgName>&quot;. התמסרותו לבניינו של <name type="Project">בית התפוצות</name> היתה חשובה מאוד בעיניו, גולת הכותרת של מחצית חייו 
+                  השנייה, שאותה הקדיש לשימור הזיכרון.
+               </p>
+               
+               
+               
+               <p n="2">
+                  ראשית כתיבתו הספרותית היתה ב<placeName type="City" ref="http://sws.geonames.org/864485">ווילנה</placeName>, שם כתב שירים קצרים ביידיש ובעברית, ששניים מהם פורסמו 
+                  בעיתוני &quot;<orgName>השומר הצעיר</orgName>&quot; בזמן השלטון הסובייטי, אך רובם אבדו בעת היציאה מהגטו ליער. שיר נוסף שכתב 
+                  ב<placeName type="Forest">יער רודניקי</placeName>, בשם &quot;<name type="Poem">והיה לבבכם לכינור</name>&quot;, הגיע לידיו של המשורר <persName>אברהם סוצקבר</persName> ב<placeName type="City">מוסקבה</placeName>, הועבר לארץ 
+                  <placeName type="Country" ref="http://sws.geonames.org/294640">ישראל</placeName> ופורסם ב<name type="Journal">עיתון הארץ</name> (<date>ספטמבר 1944</date>) בחתימת שמו המחתרתי &quot;<persName type="Undercover">אורי</persName>&quot;. זה היה פרסומו הספרותי 
+                  הראשון בעברית בארץ. בעת מאסרו בכלא ב<placeName type="City" ref="http://sws.geonames.org/360631">קהיר</placeName> החל בכתיבת הפואמה הראשונה שלו, &quot;<name type="Poem">עד לא אור</name>&quot; 
+                  (<name type="Publications">ספרית פועלים</name>, <date when="1947">1947</date>). נושאי הפואמה הם הגטו ולחימת הפרטיזנים, וכבר בה ניכרים קווי המתאר של 
+                  יצירתו: יחיד נבחר הנושא משימה של גאולה וניצב מול ציבור שאינו מבין את בשורתו; סיפור חייו שלו 
+                  כדגם מוביל ברצף השירי של הפואמה; מבנה קולאז'יסטי, דלגני, בעל רצף שבור של הפרקים והתמונות; 
+                  מוטיבים חוזרים בצורות חדשות ובהקשרים חדשים; ולשון הרמטית, אניגמטית לפעמים, שאינה מתחנפת 
+                  לקורא.
+               </p>
+               
+               
+               <p n="3">
+                  ב<date when="1950">שנות החמישים</date> הראשונות התמסר לכתיבת פרוזה ופירסם את הרומן <name type="Novel">פנים אל פנים בעל שני החלקים, 
+                     הצומת ושעת האפס</name> (<name type="Publications">ספרית פועלים</name>, <date when="1955">1955</date>-<date when="1953">1953</date>). הוא התכוון לכתוב טרילוגיה שתכלול את האפוס של 
+                  שואה ותקומה, מרד הגטאות, ההשמדה, הבריחה ומלחמת העצמאות, דרך גלריית דמויות מ<orgName type="Army">חטיבת גבעתי</orgName>. 
+                  הוא לא השלים את הטרילוגיה, והחלק השלישי, ש<surname>קובנר</surname> עצמו העיד (בריאיון עם <persName>עמי שמיר</persName>, <date when="1970">1970</date>) ששרף 
+                  אותו במו ידיו, לא פורסם מעולם. הספרים זכו להצלחה ניכרת ונדפסו במהדורות רבות. 
+               </p>
+               
+               
+               <p n="4">
+                  עיקר כתיבתו של <surname>קובנר</surname> הוא שירה, ותרומתו העיקרית לשירת דורו ולפואמה העברית בדורות האחרונים 
+                  היא הפואמות שלו, ובהן: &quot;<name type="Poem">פרידה מהדרום</name>&quot; (<date when="1941">1949</date>), סיפור לחימתה של <orgName type="Army">חטיבת גבעתי</orgName> במלחמת העצמאות; 
+                  &quot;<name type="Poem">המפתח צלל</name>&quot; (<date when="1965">1965</date>-<date when="1950">1950</date>), על תקופת הגטו והיערות; &quot;<name type="Poem">אדמת החול</name>&quot; (<date when="1961">1961</date>), חוויית שירה פגאנית 
+                  ואקסטטית מביקורו בצפון-מזרח ברזיל; &quot;<name type="Poem">אחותי קטנה</name>&quot; (<date when="1967">1967</date>), חשבונו המר והנוקב עם <geogName type="Continent" ref="http://pleiades.stoa.org/places/1001887" >אירופה</geogName> ועם עולם 
+                  הנצרות; &quot;<name type="Poem">חופה במדבר</name>&quot; (<date when="1970">1970</date>), רשמי טיול ב<geogName type="Desert" ref="http://pleiades.stoa.org/places/746813">סיני</geogName> ומסע אל שורשי האומה; &quot;<name type="Poem">להקת הקצב מנגנת על הר 
+                     גריזים</name>&quot; (<date when="1972">1972</date>), ארץ <placeName type="Country" ref="http://sws.geonames.org/294640">ישראל</placeName> מול <geogName type="Continent" ref="http://pleiades.stoa.org/places/1001887">אירופה</geogName>, <placeName type="City" ref="http://sws.geonames.org/293198">ירושלים</placeName> מול <placeName type="Country">ירושלים דליטא</placeName>; &quot;<name type="Poem">שירת הקקדו</name>&quot; (<date when="1972">1972</date>), פואמה 
+                  סאטירית על מצב היהודי בעולם שלאחר השואה והמלחמה; &quot;<name type="Poem">אל</name>&quot; (<date when="1980">1980</date>), פואמה שליחותית, שהמשורר 
+                  מדבר בה אל נמעניו כשליח נוצרי ב<placeName type="City" ref="http://sws.geonames.org/293198">ירושלים</placeName>; ושתי הפואמות שיצאו לאור בשנת מותו: &quot;<name type="Poem">שירת רוזה</name>&quot; (<date when="1987">1987</date>), 
+                  ובה חשבון אישי נוקב ויחסו אל אמו; ו&quot;<name type="Poem">סלון קטרינג</name>&quot; (<date when="1987">1987</date>), שירת הסיום של חייו כשהוא חולה במחלת 
+                  הסרטן ומאושפז בבית החולים ב<placeName type="Country" ref="http://sws.geonames.org/6252001">ארצות הברית</placeName>. פואמה ישירה, גלויה, ללא מסכות.
+               </p>
+               
+               <p n="5">
+                  החידושים שלו במבנה הפואמות הם שמייחדים את כתיבתו השירית: הרב-קוליות שלהן, המבנה 
+                  הקולאז'יסטי שלהן, המצטרף לבסוף, חרף דילוגים במקום ובזמן ובקול השר, לתמונה שלמה; החזרה 
+                  וההשלמה תוך פיתוח הנושאים העיקריים, אם במהלך הפואמה עצמה ואם בין פואמה לפואמה. בכך 
+                  המשיך, תוך חידוש ושינוי, את מסורת הפואמות העבריות שכתבו משוררים עבריים לפניו (<persName>יל&quot;ג</persName>, ומאוחר 
+                  יותר <surname>ביאליק</surname>, <persName>דוד שמעוני</persName>, <persName>שמשון מלצר</persName>, <persName>ש' שלום</persName> ואחרים). בעוד שרוב בני דורו כתבו שירה אישית, לירית, 
+                  נצמד <surname>קובנר</surname> למבנה הפואמטי ההדוק שיצר.
+               </p>
+               
+               <p n="7">
+                  כתב גם שירים ליריים ומחזורים קצרים, שכונסו בספריו <name type="Book">מכל האהבות</name> (<date when="1965">1965</date>) ו<name type="Book">תצפיות</name> (<date when="1977">1977</date>), ובהם 
+                  התייחס אל פרשיות מחייו, כמו ישיבתו בקיבוץ, גידול ילדיו, הקיבוץ כגן מטופח מבטיח מצד אחד וכמקום 
+                  פרטי מלא צער מצד אחר, וכלל בהם גם שירי התרשמות ושירי הגות. בשירים אלה הוא מדגיש את כפל 
+                  המולדות שלו: ארץ <placeName type="Country" ref="http://sws.geonames.org/294640">ישראל</placeName> מול <placeName type="Country" ref="http://sws.geonames.org/597427">ליטא</placeName>, <placeName type="Kibutz" ref="http://sws.geonames.org/295232">עין החורש</placeName> מול <placeName type="City" ref="http://sws.geonames.org/864485">וילנה</placeName>, <placeName type="River" ref="http://pleiades.stoa.org/places/189103682">נחל אלכסנדר</placeName> מול <placeName type="River">נחל הוויליה</placeName>. השירים 
+                  הליריים הם גם כעין פואמות קצרות ויש בהם מחזורים קטנים בעלי מבנה של קולאז'.
+               </p>
+               
+               <p n="8">
+                  <surname>קובנר</surname> כתב ופירסם גם מסות, שחלקן נישאו לראשונה כנאומים בטקסים שונים: <name type="Poem">על הגשר הצר</name>, אסופה 
+                  בעריכת שלום לוריא (<date when="1981">1981</date>), ו<name type="Poem">לעכב את הקריעה</name> בעריכת <persName>מוקי צור</persName> (<date when="1998">1998</date>). שני ספרי עדות גדולים שכתב, 
+                  ובהם נתן ביטוי לרעיון שימור הזיכרון שפיתח, הם <name type="Book">מגילות האש</name> (<date when="1981">1981</date>) ו<name type="Book">מגילות העדות</name> (בעריכת <persName>שלום 
+                     לוריא</persName>, <date when="1993">1993</date>). לקורפוס הפרוזה שלו אפשר לצרף גם את שלושת ספרי הילדים <name type="Book">מסע אל ארץ המלים</name> (<date when="1981">1981</date>), 
+                  <name type="Book">משהו על לוויתנים</name> (<date when="1989">1989</date>) ו<name type="Book">המלאך הקטן מיכאל</name> (<date when="1989">1989</date>). 
+                  זכה ב<name type="Prize">פרס שלונסקי</name> (<date when="1961">1961</date>) על שני החלקים של <name type="Book">פנים אל פנים</name>, ב<name type="Prize">פרס ברנר</name> (<date when="1968">1968</date>) וב<name type="Prize">פרס ישראל</name> (<date when="1970">1970</date>). 
+               </p>
+            </div>
+         
+         
+         <div type="bibliogrphy">
+            <listBibl>
+               <bibl>
+                  <author>בן-יוסף גינור, צביה</author>.<title> עד קץ הבדיה, עיון בשירת אבא קובנר</title> <publisher>תל אביב: הקיבוץ המאוחד</publisher>.<date when="1995">1995</date>;
+               </bibl>
+               <bibl>
+                  <editor>לוריא, שלום (עורך)</editor>. <author>אבא קובנר</author>: <title>מבחר מאמרי ביקורת על יצירתו</title>.<publisher>תל אביב: הקיבוץ המאוחד</publisher>. <date>1988</date>;
+               </bibl>
+               <bibl>
+                  <author>פורת, דינה</author>. <title>מעבר לגשמי, פרשת חייו של אבא קובנר</title>. <publisher>תל אביב: עם עובד</publisher>. <date>2000</date>;
+               </bibl>
+               <bibl>
+                  <author>רוגני, חגי</author>. <title>מול הכפר שחרב, עמדות פוליטיות כלפי הסכסוך היהודי-ערבי בשירה העברית, 1949 - 1929</title>. <publisher>חיפה: פרדס</publisher>. <date>2006</date>;
+               </bibl>
+               <bibl>
+                  <author>שהם, ראובן</author>. <title>המראה והקולות, קריאה קשובה ב'פרידה מהדרום' לאבא קובנר</title>. <publisher>תל אביב ספרית פועלים</publisher>. <date>1994</date>;
+               </bibl>
+               <bibl>
+                  <author>שמיר, עמי</author>. <title>&quot;כל דור צריך להישרף בשריפתו, ראיון עם אבא קובנר&quot;. למרחב</title>.<date>10.5.1970</date>.  
+               </bibl>
+            </listBibl>
+         </div>
+         <docAuthor>אלישע פורת</docAuthor>
+         </div>
+      </body>
+   </text>
+</TEI>
