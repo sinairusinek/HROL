@@ -6,19 +6,29 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>title of corpus</title>
+                <title>מכתבי אבשלום פיינברג</title>
                 <author>author</author>
             </titleStmt>
             <publicationStmt>
                 <p>Publication Information</p>
             </publicationStmt>
             <sourceDesc>
-                <p>Information about the source</p>
+                <listPerson>
 
+                    <person xml:id="AvishalomFienberg"/>
+
+                    <person xml:id="RivAaronsohn"/>
+
+                </listPerson>
+
+                <bibl> פינברג, אבשלום. "מכתבים לרבקה אהרונסון". פרויקט בן-יהודה. אין תאריך.
+                    2019-03-20. https://bybe.benyehuda.org/read/6874 פינברג, אבשלום, and אמיר, אהרן.
+                    אבשלום : כתבים ומכתבים. חיפה: שקמונה, 1971. Print. </bibl>
             </sourceDesc>
+
         </fileDesc>
     </teiHeader>
-    <TEI xml:id="EdensLetter1">
+    <TEI xml:id="EdenKavishy1">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -33,43 +43,58 @@
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
+
+
                 <correspDesc>
+
+
                     <correspAction type="sent">
-                        <persName>אבשלום</persName>
-                        <settlement>חדרה</settlement>
+
                         <date when="1911-11-01">01.11.1911</date>
+
                     </correspAction>
+
+
+                    <correspAction type="sent">
+
+                        <persName>אבשלום פיינברג</persName>
+
+                        <placeName>חדרה</placeName>
+
+                        <date when="1911-11-01">01.11.1911</date>
+
+                    </correspAction>
+
+
                     <correspAction type="received">
-                        <persName>רבקה</persName>
-                        <settlement>זכרון יעקוב</settlement>
+
+                        <persName>רבקה אהרונסון</persName>
+
+                        <placeName>זכרון יעקוב</placeName>
+
                     </correspAction>
 
                 </correspDesc>
+
             </profileDesc>
-
-
-
         </teiHeader>
         <text>
             <body>
                 <div>
 
-                    <opener>
-                        <dateline>
-                            <date>01.11.1911</date>
-                            <placeName> חדרה</placeName>
-                        </dateline>
-                        <salute> לבתי האהובה </salute>
-                    </opener>
+                    <dateline>
+                        <placeName ref="#Hadera">חדרה</placeName>
+                        <date>01.11.1911</date>
+                    </dateline>
 
-
+                    <salute> לבּתי האהובה.</salute>
                     <p> אם נעצבתי אל לבי הינך מבינה בעצמך. אבל לא רק מהרגש האנוכיי על שאינך באה,
                         הנני גם נעצב מאד על שאמך חולה שוב. מה יהיה סוף הדברים האלה? בבית עובדים,
                         עושים סדרים, שבים לחיות… קורים פה דברים משונים: שוכבים במיטות מוצעות, יושבים
                         אל שולחן נקי, ועוד פלאי-פלאים שאיבּדתי הרגלם פה. מאיין הינך לוקחת שביתנו מלא
                         אורחים? כלל. רק הא' בלקינד פה והוא הן נשאר. עכשיו פה גם הא' מ. חנקין, אבל
                         הוא רק לוקח ארוחותיו אצלנו וישן הוא אצל אחיו. כך, הננו לבדנו, אמא ואני, אני
-                        ואמא… במה שנוגע לפרזנליכקייט 35 \שלי, הנני חלש מאד, כנראה באה ה-r ? action
+                        ואמא… במה שנוגע לפרזנליכקייט 35 \שלי, הנני חלש מאד, כנראה באה ה-r é action
                         36 . אמי והרופא רוצים שאקח חינה37 . אִמרי בעצמך, חביבתי, האם אין אלה שטותים
                         בעלמא? אמי מתהלכת כצל, עובדת, משוטטת בפינות, מתבודדת, מתגעגעת ומראֶהָ פולח
                         לבּי. מה עושה את? מה שלום ספּתנו היקרה? אני מתגעגע לשתיכן, סוגר לרגעים עיני
@@ -83,17 +108,16 @@
                         בייחוד לאמך, וכי כועס אני עליה ועל לבּה 38 שלום, מלכתי הקטנה! הנני מדביק לבי
                         וּשׂפתי לרגליך הננסיות, לשוּלי שמלתך היקרה, לקצה סינורך המבוּשׂם הנני שם
                         ראשי על זרועותיך האהובים, על לבּך החם. </p>
-                    <closer>
-                        <salute>הנני שלך ללא מעצור</salute>
-                        <signed>
-                            <persName> אבשלום</persName>
+
+                    <closer> הנני שלך בלי מעצור. <signed>
+                            <persName ref="#AvishalomFienberg">אבשלום</persName>
                         </signed>
                     </closer>
                 </div>
             </body>
         </text>
     </TEI>
-    <TEI xml:id="EdensLetter2">
+    <TEI xml:id="EdenKavishy2">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -110,31 +134,40 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName>אבשלום</persName>
-                        <settlement>חדרה</settlement>
+
                         <date when="1911-11-10">10.11.1911</date>
+
+                    </correspAction>
+                    <correspAction>
+
+                        <persName>אבשלום פיינברג</persName>
+
+                        <placeName>חדרה</placeName>
+
+                        <date when="1911-11-10">10.11.1911</date>
+
                     </correspAction>
                     <correspAction type="received">
-                        <persName>רבקה</persName>
-                        <settlement>זכרון יעקוב</settlement>
-                    </correspAction>
 
+                        <persName>רבקה אהרונסון</persName>
+
+                        <placeName>זכרון יעקוב</placeName>
+
+                    </correspAction>
                 </correspDesc>
             </profileDesc>
         </teiHeader>
         <text>
             <body>
                 <div>
-                    <opener>
-                        <dateline>
-                            <date>10.11.1911</date>
-                            <placeName> חדרה</placeName>
-                        </dateline>
-                        <salute> ילדת-געגועי האהובה, שלום. </salute>
-                    </opener>
 
+                    <dateline>
+                        <placeName ref="#Hadera">חדרה</placeName>
+                        <date>10.11.1911</date>
+                    </dateline>
 
-                    <p> השבוע השאיר בלבי חלל ריק. לא כתבתי לך אף פעם ואַת, אכזריה, לא זכרת אותי כלל.
+                    <salute> ילדת-געגועי האהובה, שלום</salute>
+                    <p>השבוע השאיר בלבי חלל ריק. לא כתבתי לך אף פעם ואַת, אכזריה, לא זכרת אותי כלל.
                         מה זאת, רבקה?! הנה מַתנו שבוע אחד וחיינו לא היו משותפים, כך לא טוב. מדוע לא
                         כתבתי? הלא הינך יודעת… שבתי ביום הראשון. קורספונדנציה גדולה חיכּתה לי. הלכתי
                         לאסיפה. עזבתיה אחרי חצות. הלכתי אל סמסונוב. החולה שכבה. בחדר אחד שכב בעלה
@@ -166,17 +199,409 @@
                         תתני לה להיכּנס לאורך-ימים. מחלת-מורשה זו במשפחתנו. השתדלי שהעצב לא יגרשך.
                         די, רבקתי האהובה, די לצערך ולשׂרוט על לבי. סלחי לי, אבל למושלים צריך להודיע
                         בדיוק את הנשמע בארצותיהם וממלכתך הלא לבבי, ואני הנני רק הפּקיד המצווה, והמרד
-                        גדול, מלכתי היקרה, וידי קצרה להושיע: והנני מודיע… די, די! . </p>
-                    <closer>
-                        <salute> הנני שולח לך חבילת שושנים ואֶת… (להבדיל) ואת… לבי שפתי כבר נשרפו
-                            מייחוּל</salute>
-                        <signed>
-                            <persName> אבשלום</persName>
+                        גדול, מלכתי היקרה, וידי קצרה להושיע: והנני מודיע… די, די! הנני שולח לך חבילת
+                        שושנים ואֶת… (להבדיל) ואת… לבי. </p>
+
+                    <closer>שפתי כבר נשרפו מייחוּל. <signed>
+                            <persName ref="#AvishalomFienberg">אבשלום</persName>
                         </signed>
                     </closer>
                 </div>
             </body>
         </text>
     </TEI>
+    <TEI xml:id="EdenKavishy3">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+
+
+                <correspDesc>
+
+
+                    <correspAction type="sent">
+
+                        <date when="1912-03-21">21.3.1912</date>
+
+                    </correspAction>
+
+
+                    <correspAction type="sent">
+
+                        <persName>אבשלום פיינברג</persName>
+
+                        <placeName>חדרה</placeName>
+
+                        <date when="1912-03-21">21.3.1912</date>
+
+                    </correspAction>
+
+
+                    <correspAction type="received">
+
+                        <persName>שרה אהרונסון</persName>
+
+                        <placeName>זכרון יעקוב</placeName>
+
+                    </correspAction>
+
+                </correspDesc>
+
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+
+                    <dateline>
+                        <placeName ref="#Hadera">חדרה</placeName>
+                        <date>21.3.1912</date>
+                    </dateline>
+
+                    <salute>שרתי החביבה</salute>
+                    <p>חן חן בעד ה-74 griffonage הקטון. חשבתי ללכת היום אליך, אבל אמא חלתה אתמול ואף
+                        כי הוטב לה (את ארוחת-הערב אכלה עמנו אל השולחן), בכל-זאת כשניסיתי לגמגם:
+                        “רציתי לנסוע מחר לזכרון…” הזכירתני כי זה-עתה באתי, כי מתגעגעת היא מאד. כי
+                        שׂמחה אתמול לקראתי, וכי אלך בשבת הבאה. צדקה אמנם. אַת אפילו תגידי כי לא
+                        הייתי צריך אפילו לחשוב לנסוע. גם את צודקת. אבל גם אני משתעמם, גם לי רע,
+                        ובימים האחרונים יותר מאשר תמיד. אתמול היתה לי שיחה (מונולוג שלי) עם אמא
+                        אודות המיזינקה 75שלה, הקלתי את לבי, ואמא בכתה. אני לא ראיתי זאת קודם יען
+                        שישבה בפינה על הטלטלה [נדנדה] בצל ואני אל השולחן, אבל בקָרבי אליה להראות לה
+                        איזה תמונה ראיתי כי רטובּות עיניה. ואולי זה רק משיעול (יש לה שיעול חזק מאד),
+                        בכל-אופן הדאבתי רוחה אתמול. תאמרי כי רע עשיתי. אמת, לבי כבד מאד. אבל מה
+                        לעשות ואנחנו רק בשר-ודם. ובכן להתראות ב… פעם אחרת. היי שלום, גברת-לבי הקטנה. </p>
+
+                    <closer> נשיקה <signed>
+                            <persName ref="#AvishalomFienberg">אבשלום</persName>
+                        </signed>
+                    </closer>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="EdenKavishy4">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+
+
+                <correspDesc>
+
+
+                    <correspAction type="sent">
+
+                        <date when="1912-03-16">16.3.1912</date>
+
+                    </correspAction>
+
+
+                    <correspAction type="sent">
+
+                        <persName>אבשלום פיינברג</persName>
+
+                        <placeName>חדרה</placeName>
+
+                        <date when="1912-03-16">16.3.1912</date>
+
+                    </correspAction>
+
+
+                    <correspAction type="received">
+
+                        <persName>שרה אהרונסון</persName>
+
+                        <placeName>זכרון יעקוב</placeName>
+
+                    </correspAction>
+
+                </correspDesc>
+
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+
+                    <dateline>
+                        <placeName ref="#Hadera">חדרה</placeName>
+                        <date>16.3.1912</date>
+                    </dateline>
+
+                    <salute>שרה’לה, שלום בשובך! </salute>
+                    <p>אצלך ערב-פסח? ומה יד לך להכין, ילדה שלי? אצלנו נורא! כבר נקעה נפשי מכל אלה. ואל כל תמרורי עול הפסח הארור שהוציאנו לחירות ויעשנו עבדים להבלים עוד מתוסף הכעס שהוא עוצר אתכן שם.
+                        
+                        מה “גיהאנדעלט” 11 בחיפו? הגם כובעים? הנני רוצה מאד מאד לדעת מה יהיו אי"ה הטוּאָלטים? האידיאה של אהרן לשלוח את ימקוטר [רבקה] לחיפו שיתפרו לו שם שמלה היא נפלאה. די לך להשתטות. לך זה יחשׂוֹך עינויים ואת רבי רבקטש [שוב: רבקה] זה יעשה ליותר נוחה, כי הלא עם התופרת תשתגע בלי ספק פחות מאשר אתך.
+                        
+                        מה עוד? כלום, כמדומני. </p>
+                        
+                        <closer> שלום לך שרה יקרה, אוהבך בכל לבו, <signed>
+                            <persName ref="#AvishalomFienberg">אבשלום</persName>
+                        </signed>
+                    </closer>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="EdenKavishy5">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+
+
+                <correspDesc>
+
+
+                    <correspAction type="sent">
+
+                        <date when="1912-06-09">9.6.1912</date>
+
+                    </correspAction>
+
+
+                    <correspAction type="sent">
+
+                        <persName>אבשלום פיינברג</persName>
+
+                        <placeName>חדרה</placeName>
+
+                        <date when="1912-06-09">9.6.1912</date>
+
+                    </correspAction>
+
+
+                    <correspAction type="received">
+
+                        <persName>שרה אהרונסון</persName>
+
+                        <placeName>זכרון יעקוב</placeName>
+
+                    </correspAction>
+
+                </correspDesc>
+
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+
+                    <dateline>
+                        <placeName ref="#Hadera">חדרה</placeName>
+                        <date>9.6.1912</date>
+                    </dateline>
+
+                    <salute>שׂרתי</salute>
+                    <p>חרי הכל הלא הננו זוג חברים, ואני אוהבך בכל מאמצי לבּתי, אף שאַת מכעיסה אותי
+                        תמרוּרים, והנך ילדה רעה, שרה’לה חביבתי! השבּת היה עצוב, ריק היה לבּי וריק
+                        היה החדר שמלא עוד ממך. הלכתי ל“השתמח”, הסתרתי בשתי בחובּי ובאמצע השמחה לחשתי
+                        לאבשלום: לך מפּה! לך! בכל זאת מקווה אני בקרוב לשמוח שמחה יותר שקטה וּמלאה
+                        עדנה, ומבקש אני ממך מהר לי לשלוח בחבילת-אחריות את אחותך הקטנה. נדבר אודותיך
+                        פה, הריני מבטיחך ונחשוב עליך עם שקיעת החמה ובקרני-הירח נראה מעט מעיני חלומך,
+                        וּבשקיעת שמש מעט מנשמתך החמה.. </p>
+
+
+                    <signed>
+                        <persName ref="#AvishalomFienberg">אבשלום</persName>
+                    </signed>
+
+
+
+                </div>
+            </body>
+        </text>
+    </TEI>
+
+    <TEI xml:id="EdenKavishy6">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+
+
+                <correspDesc>
+
+
+                    <correspAction type="sent">
+
+                        <date when="1913-04-29">29.4.1913</date>
+
+                    </correspAction>
+
+
+                    <correspAction type="sent">
+
+                        <persName>אבשלום פיינברג</persName>
+
+                        <placeName>חדרה</placeName>
+
+                        <date when="1913-04-29">29.4.1913</date>
+
+                    </correspAction>
+
+
+                    <correspAction type="received">
+
+                        <persName>שרה אהרונסון</persName>
+
+                        <placeName>זכרון יעקוב</placeName>
+
+                    </correspAction>
+
+                </correspDesc>
+
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+
+                    <dateline>
+                        <placeName ref="#Hadera">חדרה</placeName>
+                        <date>29.4.1913</date>
+                    </dateline>
+
+                    <salute>שרתי החביבה </salute>
+                    <p>יקורי עשה את הרושם שלא ראיתיך די, ושלא ראיתיך (בפרט זה!) כראוי. לדאבוני, חצי
+                        שעה של tete a tete למען לשׂוחח אתך כדבעי, ובאמת לוּ גם נמצא הרגע אינני יודע
+                        אם הייתי יכול להשתמש בו. היה לי הרבה מאד להגיד ולשאול, והרגע לא התאים לזאת.
+                        “דבר בעתו מה טוב” אמר קוהלת. לכתוב עוד יותר אי-אפשר לי, אבל עוד חזון למועד!
+                        הנני עוזב אותך לעניינך. עשי מה שביקשתיך (או יעצתיך) וכשתישארי לבדך, לכשתעשי
+                        חשבון-הנפש מדויק, יציץ ידידך הישן גם הוא בשביל לעשות את החיבור האחרון. את
+                        רואה שעוד לא גמרת אתי, כשיעבור השכרון הראשון – נתראה! אחרי הכל הנני (אולי?)
+                        בין ארבע הנפשות שאוהבות אותך עד “התקופה החדשה”. ואני הלא קולע תמיד אל המקום
+                        הראשון. די. </p>
+
+
+                    <closer> שלום ונשיקה חמה, שלך שלך, <signed>
+                            <persName ref="#AvishalomFienberg">אבשלום</persName>
+                        </signed>
+                    </closer>
+
+
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="EdenKavishy7">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                
+                
+                <correspDesc>
+                    
+                    
+                    <correspAction type="sent">
+                        
+                        <date when="1913-06-06">6.6.1913</date>
+                        
+                    </correspAction>
+                    
+                    
+                    <correspAction type="sent">
+                        
+                        <persName>אבשלום פיינברג</persName>
+                        
+                        <placeName>חדרה</placeName>
+                        
+                        <date when="1913-06-06">6.6.1913</date>
+                        
+                    </correspAction>
+                    
+                    
+                    <correspAction type="received">
+                        
+                        <persName>שרה אהרונסון</persName>
+                        
+                        <placeName>זכרון יעקוב</placeName>
+                        
+                    </correspAction>
+                    
+                </correspDesc>
+                
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    
+                    <dateline>
+                        <placeName ref="#Hadera">חדרה</placeName>
+                        <date>6.6.1913</date>
+                    </dateline>
+                    
+                    <salute>שׂרתי החביבה, שלום </salute>
+                    <p>נראה שהמצב “כּלָה” מעביר את האדם על דעתו. אם נוסף לזאת עוד יש נשים רחמניות המעבירות את האדם על דעתו גם בימות-החול, אז הכל “au complet” [מושלם]. את כל מה שהינך אומרת לי אודות בואנו כבר אמרת לי בחביבותך במכתבך של אתמול, מלבד זאת: שם, בטוב-לבך, אמרת שאת הברמנים כבר תזמיני בבוא אלקס (אני, חי-פרעה, לא הבינותי מדוע), ובמכתב היום אינך אומרת זאת. אבל, חי-זקני, אין לך להצטער, המצב לא שונה: הם… יבואו גם בלי הזמנה מיוחדת.
+                        
+                        ובכן, voile תכלת לא צריך להביא לך? חבל, כך הייתי מחפש את לאה 12 ומתראה אתה, ובלי נחיצוּת מעשית בלי ספק כבר אוותר הפעם על העונג הזה.
+                        
+                        במה שנוגע ל“חדשות” עשרנו שווה. גם אצלי ריק נורא! אשתדל כבר למלאות את השׂק ביפו. </p>
+                    
+                    
+                    <closer> שלום לך ונשיקה <signed>
+                        <persName ref="#AvishalomFienberg">אבשלום</persName>
+                    </signed>
+                    </closer>
+                    
+                    
+                </div>
+            </body>
+        </text>
+    </TEI>
+    
     <!-- More TEI Documents -->
 </teiCorpus>
