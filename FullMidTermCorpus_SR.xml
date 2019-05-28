@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/xsl" href="stripper.xsl"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
      <teiHeader>
          <fileDesc>
@@ -9,12 +11,12 @@
                  <title>מכתבי אבשלום פיינברג</title>
              </titleStmt>
 	        <publicationStmt>
-	            <p>מהדורת XML תוייגה על ידי תלמידי הקורס "טקסט בעידן הדיגיטלי", אוניברסיטאת חיפה 2019.</p>
+	            <p>מהדורת XML תוייגה על ידי תלמידי הקורס "טקסט בעידן הדיגיטלי", אוניברסיטת חיפה 2019.</p>
 	        </publicationStmt>
 	        <sourceDesc>
 	            <listPerson>
-	                <person xml:id="AvishalomFienberg"></person>
-	                <person xml:id="RivAaronsohn"></person>
+	                <person xml:id="AvshalomFeinberg"></person>
+	                <person xml:id="RivkaAaronsohn"></person>
 	            </listPerson>
 	            <bibl>
 	                פינברג, אבשלום. "מכתבים לרבקה אהרונסון". פרויקט בן-יהודה. אין תאריך. 2019-03-20. https://bybe.benyehuda.org/read/6874
