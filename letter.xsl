@@ -15,21 +15,21 @@
                 </title>
             </head>
             <body dir="rtl">
-               <!-- <h2>
+                <h2>
                     <xsl:apply-templates select="/TEI/teiHeader/fileDesc/titleStmt/title" />
                     
                 </h2>
-                <xsl:apply-templates select="//teiHeader"/>-->
+                <xsl:apply-templates select="//teiHeader"/>
                 <hr/>
                 
-                <xsl:apply-templates select="//p"/>
-              <!--  <hr/>
+                <xsl:apply-templates select="//body"/>
+                <hr/>
                 <h2>אישים מוזכרים</h2>
                 <ul>
                     <xsl:apply-templates select="//text//persName" mode="toc">
                         <xsl:sort select="."/>
                     </xsl:apply-templates>
-                </ul>-->
+                </ul>
             </body>
         </html>
     </xsl:template>
