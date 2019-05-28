@@ -14,8 +14,8 @@
                 </title>
             </head>
             <body dir="rtl">
-               
-                <xsl:apply-templates select="//p"/>
+<!--              In the next line, as value of "select" enter xpath:
+-->                <xsl:apply-templates select="//body//p"/>
                 
                 
             </body>
