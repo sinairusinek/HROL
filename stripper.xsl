@@ -15,8 +15,9 @@
             </head>
             <body dir="rtl">
 <!--              In the next line, as value of "select" enter xpath:
--->                <xsl:apply-templates select="//body//p"/>
-                
+-->                <xsl:apply-templates select="//body"/>
+<!--                //correspAction[@type='received']/persName[text()='רבקה אהרונסון']/ancestor::TEI//body//p
+-->                
                 
             </body>
         </html>
