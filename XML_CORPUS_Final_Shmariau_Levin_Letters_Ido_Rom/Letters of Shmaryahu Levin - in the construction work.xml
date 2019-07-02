@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -94,7 +93,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -177,7 +176,7 @@
                         
                         ש. לוין
                                                 
-</p><closer><signed>ש. לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -270,7 +269,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -347,7 +346,7 @@
                         
                         ש. לוין
                                                 
-</p><closer><signed>ש. לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -418,7 +417,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -505,7 +504,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -570,7 +569,7 @@
                         
                         שמריה הלוי לוין
                                                 
-</p><closer><signed>שמריה הלוי לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -645,7 +644,7 @@
                         
                         שלום לביתך ולכל אשר לך.
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -718,7 +717,7 @@
                         
                         ש. לוין
                                                 
-</p><closer><signed>ש. לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -817,7 +816,7 @@
                         
                         ש. לוין
                                                 
-</p><closer><signed>ש. לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -902,7 +901,7 @@
                         
                         שמריה הלוי לוין
                                                 
-</p><closer><signed>שמריה הלוי לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -981,7 +980,7 @@
                         
                         שמריה הלוי לוין
                                                 
-</p><closer><signed>שמריה הלוי לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1074,7 +1073,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1175,7 +1174,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1246,7 +1245,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1319,7 +1318,7 @@
                         
                         ש. לוין
                                                 
-</p><closer><signed>ש. לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1388,7 +1387,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1457,7 +1456,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1530,7 +1529,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1599,7 +1598,7 @@
                         
                         שלנו שולחים לך כולם ברכת-שלום.
                                                 
-</p><closer><signed>ש. לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1692,7 +1691,7 @@
                         
                         ש. לוין
                                                 
-</p><closer><signed>ש. לוין</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1765,7 +1764,7 @@
                         
                         התראיתי על האניה ביפו עם ר' מרדכי [בן הלל הכהן] שלנו ודיברנו על דבר ה“כלבו’ניקים” החדשים שלנו וביחוד ע"ד פסמניק. יש לר' מרדכי איזו הצעה חדשה בנידון זה. כשאתראה עמו בקרוב נדון על זה בפרוטרוט ואודיעך.
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1838,7 +1837,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1905,7 +1904,7 @@
                         
                         סלח לי קיצורי, מרגיש אני את עצמי עוד הפעם קצת קשה.
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -1964,7 +1963,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -2033,7 +2032,7 @@
                         
                         שמריה הלוי
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
@@ -2097,7 +2096,7 @@
                         להקדים חזירתי לברלין לפני 9 ספטמבר לא אוכל, מפני כי ביום 8 ספט' ירצה חיים [וייצמן] שלנו ע“ד ה”אוניברסיטה" ולא נעים יהיה לי “לעזוב את המערכה”.
                         
                                                 
-</p><closer><signed>שמריה הלוי</signed></closer></div>
+</p></div>
             </body>
         </text>
     </TEI>
