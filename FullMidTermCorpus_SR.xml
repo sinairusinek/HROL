@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
     
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/User/Desktop/%D7%AA%D7%A8%D7%92%D7%99%D7%9C%20%D7%9B%D7%99%D7%AA%D7%94%2028.5/stripper.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/User/Desktop/%D7%AA%D7%A8%D7%92%D7%99%D7%9C%20%D7%9B%D7%99%D7%AA%D7%94%2028.5/stripper.xsl"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
      <teiHeader>
          <fileDesc>
