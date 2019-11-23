@@ -341,11 +341,11 @@
                 <div>
 
 
-                        <dateline>14.4.1912</dateline>
+                        <dateline>14.4.1912
 
-                     <salute>   ערב
+                       ערב</dateline>
 
-                        ילדות אהובות,</salute>
+                      <salute>   ילדות אהובות,</salute>
                     <p>
                         כמדומני שזה זמן רב לא ראיתיכן. צריך לכתוב מלה. רכבתי על ה“נשר” 82ואחלום אודות הזמן שיעופו הצעירים באווירונים ואחרוק שן. פה הכל על כנוֹ. ביום השלישי 83 branle-bas général, ונשארנו לבדנו. נשארנו, זאת אומרת: הגברים ורחל.
 
@@ -1419,12 +1419,12 @@
                     <closer>
                         
                         <salute>  
-                            כל נשיקותי, חביבתי האהובה,
-                            
-                            ילדך, שאַת נפשו,
-                        </salute>
+                            כל נשיקותי, חביבתי האהובה, </salute>
                         
-                        <signed>
+                        
+                        <signed>                            ילדך, שאַת נפשו,
+                            ילדך, שאַת נפשו,
+                            
                             <persName>אבשלום</persName></signed>
                     </closer> </div>
             </body>
@@ -2810,9 +2810,8 @@
                          
                     </p>
                     <closer>
-                        <salute>
+                        
                             אל-נא תחשוב לי לעוון, מר פרופסור מאוד נכבד, לא את אריכות מכתבי זה ולא את אריכות שתיקתי, וקבל-נא ברצון את ברכותי.
-                        </salute>                                              
                     </closer>
                 </div>
             </body>
@@ -3074,17 +3073,14 @@
                  <div>
                      
                      <dateline><placeName ref="#Hadera">חדרה</placeName>, <date>15.1.1912</date></dateline>
-                     <salute>
+                     <p>
                          
                          בלי ספק כבר סלחת לי, נשמתי החביבה, על שלא כתבתי לך די הבוקר. זה זמן רב מאד שלא ראיתי את האדון אהרנסון, וכמוצא שלל רב שמחתי לשהות בחברתו שעה קלה וליהנות מדיבורו החי.
                          
                          עתה כבר מאוחר מאד. עד עתה עבדתי, ואיני יכל להתיר לעצמי שינה טרם שוחחתי אתך קצת.
                          
-                     </salute>
-                     <p>
-                         
+                       
                          ***
-                         
                          בנשימה ארוכה, וכאיש השובר צמאוֹ, שתיתי את דפיך הארוכים. חן-חן, רעותי האהובה. לוּ רק לא היה מכתבך כל-כך עגום, כל כך פסימי, היה כבר טוב. אבל ילדתי הקטנה עצובה, עצובה מאד, ולבּי לאמָרֵיה הולך שחוֹח.
                          
                          
@@ -4212,7 +4208,8 @@
     </p>
                     <closer>
   <salute>  כל נשיקותי, חביבתי האהובה,
-    ילדך, שאַת נפשו,</salute>
+   </salute>
+                        ילדך, שאַת נפשו,
                         <signed><persName ref="#AFeinberg">אבשלום</persName></signed>
                     </closer>
                 </div>
@@ -4631,7 +4628,7 @@
                  <div>
                      <opener>
                          <dateline>  2 ינואר 902</dateline> <placeName>אודיסא</placeName>
-                         <salute>ל“אחיאסף”, וורשא 1 </salute>
+                         <title>ל“אחיאסף”, וורשא 1 </title>
                           
                      </opener>
                      <p>
@@ -4679,7 +4676,7 @@
                  <div>
                      <opener>
                      <dateline>  14 ינואר 902</dateline> <placeName>אודיסא</placeName>
-                         <salute>למר ש. פ. רבינוביטש (שפ"ר), וורשא</salute>
+                         <title>למר ש. פ. רבינוביטש (שפ"ר), וורשא</title>
                      
                      </opener>
                      <p>
@@ -4729,7 +4726,7 @@
                 <div>
                     <opener>
                         <dateline>  16 ינואר 902</dateline> <placeName>אודיסא</placeName>
-                        <salute>לד"ר ש. ברנפלד, ברלין.</salute>                        
+                        <title>לד"ר ש. ברנפלד, ברלין.</title>                        
                         
                     </opener>
                     <p>
@@ -4780,7 +4777,7 @@
                 <div>
                     <opener>
                         <dateline>  , 28 ינואר 902 (כ' שבט תרס"ב).</dateline> <placeName>אודיסא</placeName>
-                        <salute>  למר י. אייזנשטַדט, יפו.</salute>                        
+                        <title>  למר י. אייזנשטַדט, יפו.</title>                        
                         
                     </opener>
                     <p>
@@ -4834,7 +4831,7 @@
                 <div>
                     <opener>
                         <dateline>  16 ינואר 901</dateline> <placeName>אודיסא</placeName>
-                        <salute>לד"א ש. לֶווין, יקַטרינוסלב.</salute>
+                        <title>לד"א ש. לֶווין, יקַטרינוסלב.</title>
                        
                         
                     </opener>
@@ -4884,7 +4881,7 @@
                 <div>
                     <opener>
                         <dateline>   29 ינואר 902. </dateline> <placeName>אודיסא</placeName>
-                        <salute>   לד"ר ז. סוסקין, זכרון יעקב. </salute>                        
+                        <title>   לד"ר ז. סוסקין, זכרון יעקב. </title>                        
                         
                     </opener>
                     <p>
@@ -4939,7 +4936,7 @@
                 <div>
                     <opener>
                         <dateline>  4 פברואר 902  </dateline> <placeName>ווינא</placeName>
-                        <salute>לכבוד הועד הפועל של הקונגס הציוי, ווינא</salute>                        
+                        <title>לכבוד הועד הפועל של הקונגס הציוני, ווינא</title>                        
                         
                     </opener>
                     <p>
@@ -4999,10 +4996,8 @@
                          
                          הנני מחבק ומלטף את ידיך וזרועותיך שהינך כה שומרת על נקיונן.</p>
                          
-                        <salute> אחיך אוהבך,
-                         
-                         אבשלום</salute>
-                         
+                        <salute> אחיך אוהבך,</salute>
+                      <signed>אבשלום</signed>
                      
                  </div>
              </body>
