@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../../../../../Applications/oxygen/frameworks/tei/xml/tei/css/tei.css"?>
+<?xml-stylesheet type="text/css" href="../xmlTei/mycss.css"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>תוספת סוף 2015</title>
+                <author>מאגרות אחד העם</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>תיוגים על ידי תלמידי הקורס ׳טקסט בעידן הדיגיטלי׳ שנת תשע״ו</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Letter to Livontin</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p>תייג אהרון חבר  </p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Ahad Ha'am letters collection</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>
+                            <forename type="first" sort="1"> Asher </forename>
+                            <forename type="middle" sort="2"> Zvi </forename>
+                            <forename type="middle" sort="3"> Hirsh </forename>
+                            <surname sort="4"> Ginsberg </surname>
+                            <addName type="nick"> Ahad Ha'am </addName>
+                        </persName>
+                        <settlement>Odesa</settlement>
+                        <date when="1915-10-14">14 October 1915</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>
+                            <forename full="init" type="first" sort="1"> Z. </forename>
+                            <forename full="init" type="middle" sort="2"> D. </forename>
+                            <surname sort="3"> Livontin </surname>
+                        </persName>
+                        <settlement> London, Alexandria </settlement>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <p>
+                    קבלתי מכתבך מן
+                    <date when="1915-09-27">
+                        27 לחודש שעבר
+                    </date>
+                    עם המכתבים מ
+                    <name type="place">
+                        א״י
+                    </name>
+                    שצרפת לו....
+                </p>
+                <p>
+                    אודך בכל לבי על הפרטים שהודעתני ע״ד המצב ב
+                    <name type="place">
+                        א״י
+                    </name>
+                    . את המכתבים אשר הזכרת לא ראינו פה וגם לא שמענו מאומה
+                    על כל הענין. העתונים פה אינם מודיעים כמעט כלום ע״ד הענינים הפנימיים של אותה מדינה. וע״כ תעשה עמנו חסד של אמת אם תשלח לי גליונות כה״ע באיזו לשון שהיא, ששם נדפסו המכתבים ההם...
+                </p>
+                <p>
+                    מבין אני היטב, שמצבך עתה על 
+                    <name type="place">
+                        גבול א"י
+                    </name>
+                    — אין לקנא בו. אבל, כמו שאתה כותב בעצמך, במה נחשב כל זה לעומת המצב ״שם״? — מה טוב להיות מאמין חמים בעת כזאת! ״מלחמת גוג ומגוג״, ״חבלי משיח״ — הרי הכל כאן, ולא חסר אלא המשיח עצמו...
+                </p>
+                <p>
+                    ופה אין אתנו כל חדש. החלומות שחלמנו לפני איזו חדשים והיינו מוצאים בהם לפעמים איזו טיפה של תנחומים — גם הם פתרונם נעשה רחוק ביותר: כשל עוזר ונפל עזור. חושך מסביב, ואין אף קו אור אחד לעורר תקוה בלב. אבל מה נוכל לעשות? צריך לחיות ולחזק אח התקלה לעתיד, למרות כל חשכת ההווה. — ובכן חזק ונתחזק</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="ehad-haam_1">
+        
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title> אחד העם</title>
+                    <author><persName ref="#Ehad-Haam">אשר צבי הירש גינצברג</persName></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p>. הטקסט הוקלד על פי המהדורה המודפסת. תויג על ידי מתן חייט </p>
+                    
+                </publicationStmt>
+                <sourceDesc>
+                    
+                    <biblStruct>
+                        <monogr>
+                            <imprint>
+                                <pubPlace>Berlin</pubPlace>
+                                <pubPlace>Jerusalem</pubPlace>
+                                <publisher>מוריה</publisher>
+                                <publisher>יבנה</publisher>
+                                <date>1915</date>
+                                <biblScope>כרך חמישי, עמודים 340-341</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>אשר צבי הירש גינצברג</persName>
+                        <settlement>לונדון</settlement>
+                        <date when="1915-10-26">26 september 1915</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>מרת ר כהן</persName>
+                        <settlement>פריז</settlement>
+                    </correspAction>
+                    
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener><salute>למרת ר. כ ה ן, פריז </salute><dateline>26 ספטמבר 915
+                        לונדון</dateline></opener>
+                    <p> אודך מאד על מכתבך (מן 21) והדברים המעניינים שצרפת לו. בסיבת החגים אחרה
+                        תשובתי מעט. אמנם היתה לי שיחה עם אחד העתונאים האמריקנים, ביחוד ע״ד יחס
+                        היהודים האמריקנים להרדיפות <placeName>ברוסיא</placeName>. אינני יודע, מה פרסם משיחתנו, אבל איני
+                        זוכר שדיברנו ע״ד <orgName>״חברה להפצת ידיעות״</orgName>. איך שהוא, הרעיון מצד עצמו נכון מאד, אם
+                        אך יש יכולת להגשימו במעשה, כלומר, אם הפריסא הצרפתית. או חלק ממנה, באמת מפיצה
+                        את הידיעות האלה בין העם הצרפתי. פה גם כן נולדה מחשבה כזו, אלא שהפריסא
+                        האנגלית הראתה עצמה סגורה ומסוגרת לענין זה. מלבד זאת, הצנזורא אצלכם, כנראה,
+                        מקילה יותר בפרסום דברים כאלה. נאומו של פרידמן1, למשל, זמן רב לא יכול להתפרסם
+                        אפילו במכ״ע .Jew. chr, ורק בעזרתו של איש אחד בעל השפעה מרובה התירו לפרסם
+                        נאום זה באיחור זמן הרבה ב״דזש. קר.", וגם אז אף מכ״ע אנגלי אחד לא השתמש בחומר
+                        הזה............. 1דפוטט [ציר, חבר] יהודי ב״דומא״ הרוסית. </p>
+                </div>
+            </body>
+        </text>
+    </TEI><TEI xml:id="ehad-haam">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>אגרות אחד העם</title>
+                    <author><persName ref="#Ehad-Haam">אשר צבי הירש גינצברג</persName></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p>תויג על ידי אביב וייס </p>
+                </publicationStmt>
+                <sourceDesc>
+                    <biblStruct>
+                        <monogr>
+                            <imprint>
+                                <pubPlace>Berlin</pubPlace>
+                                <pubPlace>Jerusalem</pubPlace>
+                                <publisher>מוריה</publisher>
+                                <publisher>יבנה</publisher>
+                                <date>1923</date>
+                                <biblScope>כרך חמישי, עמודים 349-350</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sending">
+                        <persName>אשר צבי הירש גינצברג</persName>
+                        <placeName>London</placeName>
+                        <date when="1915-11-14"> 14 november 1915</date>
+                    </correspAction>
+                    <correspAction type="receiving">
+                        <persName>נ. סוקולוב</persName>
+                        <placeName ref="#London">לונדון</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <text>
+            <body>
+                <div>  
+                    <opener><dateline> 14 נוכמבד 915</dateline>למר נ. סוקולוב,  <placeName>לונדון</placeName>,</opener>
+                    
+                    <p>תודתי לך על מכתבך. — בדבר המלה <quote>״תושיע״</quote>, אילו הסתכלת
+                        היטב בכת״י היית מוצא, שהיו״ד דחוקה בין השי״ן והעי״ן,
+                        לפי שהוספתיה אחר שכבר נכתבה המלה. גם אני נוהג לשמור
+                        על הרוב את ההבדל בין עתיד פשוט ו״אופ<unclear></unclear>טאטיב״ (או כמו
+                        שקוראים לו אחרים: <unclear>״וולונטאטיב״</unclear>), וע״כ כתבתי תחילה
+                        ״תושע״. אבל אח״כ נתעורר ספק בלבי: הן ההבדל הזה אינו
+                        מקיף בעברית כל הפעלים, וכנראה (וכך סובר אי ב ל ד),
+                        עוד בימי קדם חדלו העברים לשמור הבדל זה בכל מקום, ולא
+                        נשאר ממנו אלא חלק. ובשפה המאוחרת חדלו לגמרי לשים
+                        לב לזה. וע״כ אין מן הראוי לשוב ולהחיות את המת בפעלים
+                        שכבר בימי המקרא לא נשתמר ההבדל. והפעל ״ישע״ הוא אחד
+                        <bibl> מהם, שהרי מצינו ״יושע״ בעתיד פשוט (משלי כ׳, כ״ב</bibl>)
+                        <bibl>ו״יושיע״ במובן אופטטיבי (תהלים ע״ב, ד׳)</bibl>, וגם משתמשים
+                        במובן האחרון בתמונת ״הושע״ ו״הושע״ בלי הבדל. ובהיותי
+                        נוטה תמיד לפשטות הלשון, בחרתי בתמונה היותר פשוטה
+                        ושגורה על לשון הקוראים, כלומר תמונת העתיד הפשוט:
+                        ״תושיע״. ואולם מאחר שעוררת שאלה זו, ודאי ימצאו גם
+                        אחרים שיתפשוני על זה, וכדי שלא להקניט את המדקדקים 
+                        החזרתי עתה את המלה ליושנה ומחקתי את היו״ד.</p>
+                    
+                </div>
+            </body>
+        </text>
+    </TEI> <TEI xml:id="הרגשות">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                    <author/>
+                </titleStmt>
+                <publicationStmt>
+                    <p>תויג ע״י מיקה סולומון</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <p><persName>למר מ. רבינוביטש</persName> (בן־עמי), <placeName>ג'י ני בה</placeName> <placeName>לונדון</placeName>, 20 ספטמבר 915 (י״ב תשרי תרע״ו)
+                        ....אתה אומר, ״שמרגיש אתה בי שהולך אני ומתרחק לא רק ממך, כי אם מכל עולמנו׳/
+                        אין משיבים על הרגשה. אבל אם תבאר לי את דבריך לא על יסוד ההרגשה, כי אם על
+                        יסוד איזו עובדות ודברים של טעם, אפשר שאוכל להראות לך, שאין הרגשתך נכונה. ומה
+                        אכתוב לך עוד ? בעת הזאת אין לשון בני אדם מוכשרת לבטא בה אף צל־צלם של רגשות
+                        הלב, ואינני מוצא לנפש טוב משתיקה. מבין אני היטב מצב נפשך עתה. אבל בשעה שכל
+                        העולם, וביחוד עולמנו אנו, הולך ונהפך לתוהו ובור,ו, טוב לגבר לשאת עולו
+                        בסבלנות, כי מה אנו ומה חיינו בערך אל ים הדמעות המשתפך על פני כל הארץ ד ויהי
+                        רצון שיגדל כוחך וכוח כולנו להתגבר על הגלים השואפים לבלענו ולהגיע לימים טובים
+                        מאלה.</p>
+                </div>
+            </body>
+        </text>
+    </TEI><TEI xml:id="MyTextNumber1">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                    <author/>
+                </titleStmt>
+                <publicationStmt>
+                    <p>תויג על ידי צ׳יי לים</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>אחד-העם</persName>
+                        <settlement>לונדון</settlement>
+                        <date when="1915-10-11">915 11 אוקטובר </date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>צ׳לנוב</persName>
+                        <settlement>מוסקווא</settlement>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener>
+                        <salute>ד״ר י. צ׳לנוב, מוסקווא</salute>
+                        <dateline> לונדון, 11 אוקטובר 915</dateline>
+                    </opener>
+                    <p> אע״פ שאני בעצמי זה כבר עזבתי את המנהג לשלוח מכתבי ברכה לראש השנה, אסיר תודה
+                        אני בכל זאת למנהג הזה, שהוא הוא שעורר אותך לשלוח לי מכתבך היקר מן 5 אוקטובר,
+                        שגרם לי עונג רב. לצערי, לא יכולתי לענותך תיכף, כי בשובי ממקום מנוחתי הייתי
+                        עמוס מאד בעבודה, ורק עתה אני מתחיל עוד הפעם לשוב לסדר זמנים קבוע. ועל מה
+                        איפוא אכתוב לך? על המאורעות אצלכם לא אוכל, כמובן, להרחיב הדבור. רק זאת אומר
+                        לך, שהרחבת ״תחום המושב״, בתנאים הנוכחים, היתה נחשבת בעיני לגורם שלילי בחיי
+                        היהודים, לולא היה הדבר ברור בעיני, שבפועל הרחבה זו תלך ותצטמצם על ידי
+                        פירושים שוגים, וסוף סוף לא תביא מהפכה גדולה כל כך, שתהיה בה סכנה לקיום
+                        היסודות הישנים של חיי היהודים. ואולם בהיותי רחוק כל כך ממקום המעשים, קשה לי
+                        לברר לעצמי, עד כמה היסודות ההם עור נשתמרו אחר הסער. ובנוגע ל<placeName>ארץ
+                            ישראל</placeName>, הנה מהלך המעשים עתה בעולם הולך ומתפתח במהירות מבהילה
+                        כל כך, עד שאי אפשר כלל לדעת היום מה שיהיה המצב מחר. בתנאים כאלה אי אפשר,
+                        כמובן, לדבר על תכנית מוגבלת איזו שהיא. על שאלתך בדבר מצב הרוחות פה, אוכל על
+                        כן להשיב בקיצור נמרץ. אין שום ״מצב רוח״ פה. המצב במזרח עתה מכוסה ערפל כל כך,
+                        עד ששום איש לא ירשה לעצמו לפנות לאיזה מבעלי השפעה בשאלה על עתידות א״י. את
+                        <persName>מוקולוב</persName> אני רואה לעתים קרובות מאד, אבל על הענין הזה
+                        אין אגו מדברים הרבה, באין חומר חדש, וכן הדבר בנוגע
+                        ל<persName>ווייצמן</persName>.. הנה זהו כל מה שיכול אני להודיעך. מעט
+                        מאד, אבל, אהה, יותר אין כלום.״.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>    <TEI xml:id="eHad_HaAm_to_Mayers">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>אגרות אחד העם</title>
+                    <author><persName ref="#eHad_Haam">אשר צבי הירש גינצברג</persName></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p>הטקסט הוקלד לפי המהדורה המודפסת, תויג ע״י אור ארליך</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <biblStruct>
+                        <monogr>
+                            <imprint>
+                                <pubPlace>Berlin</pubPlace>
+                                <pubPlace>Jerusalem</pubPlace>
+                                <publisher>מוריה</publisher>
+                                <publisher>יבנה</publisher>
+                                <date>1923</date>
+                                <biblScope>כרך חמישי, עמודים 302-303</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <imprint>
+                                <pubPlace>Berlin</pubPlace>
+                                <pubPlace>Jerusalem</pubPlace>
+                                <publisher>מוריה</publisher>
+                                <publisher>יבנה</publisher>
+                                <date>1923</date>
+                                <biblScope>כרך חמישי, עמוד 340</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>Ehad Ha`Am</persName>
+                        <settlement>London</settlement>
+                        <date when="1915-09-20">20 September 1915</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>M. Maiers</persName>
+                        <settlement>London</settlement>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <p>למר מ. מאיירס לונדון•״* <placeName>לונדון</placeName>׳ 20 ספטמבר 915 מכתבך מן
+                        14 ח״ז הגיעני אך ביום ששי שעבר, כי לא הייתי בביתי שבועות אחדים. מצטער אני
+                        באמת על שהנני מוכרח לדחות את הצעתך האחרונה, מפני הטעם הפשוט, שמעודי לא היה
+                        מנהגי לכתוב את הרצאותי קודם שהרציתין בעל פה. תמיד הייתי מבכר את החיבור החפשי
+                        בעזרת ״קונספקטום״ קצר. לפי דעתי, הרצאה כתובה היא סתירה מניה וביה. אין טעם
+                        לדבר, שציבור חי יתאסף בשביל לשמוע קריאת מלים מתות שנתאבנו בכתיבה ושכל אחד מן
+                        השומעים יכול היה בנקל לקראן ביחידות.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Ehad-Haam">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                    <author/>
+                </titleStmt>
+                <publicationStmt>
+                    <p>תויג על ידי יוסי מנדלוביץ׳</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>אחד העם</persName>
+                        <settlement>לונדון</settlement>
+                        <date when="1915-11-05">23 June 1817</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>נ. סוקולוב</persName>
+                        <settlement>N.A.</settlement>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener>                    למר נ. סוקולוב, לונדון
+                        
+<placeName>לונדון</placeName>, 
+                        
+<date>                        5 נובמבר 915
+</date>                    </opener>
+            <p>            
+                        קבלתי מכתבך מאתמול והוספתי אנחתי על אנחותיך. אבל מה יועילו האנחות? 
+                        אולי הגיעה השעה ל נ ו להגיד לקטני נפש אלו מה הם ומה חייהם? 
+                        שאלה זו מנקרת במוחי זה יומים בעקב מכתב אחד שקבלתי. 
+                        רוצה הייתי לדבר עמך על זה פא״פ.
+                        
+                        ועוד בדבר אחד רוצה הייתי להטרידך, אם לא קשה עליך הדבר. 
+                        נוהג אני כל ימי, שקודם שאני מפרסם איזה מאמר בדפוס, הנני נותן את הכת״י למקרא לאיזה בר־סמכא,
+                        ואם אין בר־סמכא ממש, אני מסתפק באיזה קורא בעל טעם. וע״פ הנסיון ידעתי, שמנהגי זה הצילני פעמים רבות משגיאה. 
+עכשו (כ
+מדומה לי
+, אמרתי לך) גמרתי תרגום מחברתו של פינסקר.
+                        קשה היתר, העבודה הזאת והרבה זמן ויגיעה השקעתי בה. 
+                        ובכן הגיעה עתה השעה למסרה למבקר. 
+                        ומאחר שיש בשכונתי עתה מבקר כמוך, לא אחזר, כמובן, אחר מבקר מן השוק עד שאדע תחילה, 
+                        אם לא תסכים בטובך להקדיש לכך שעה אחת. אינני דורש ממך, שתבדוק את התרגום מראש ועד סוף עד כמה הוא מכוון אל המקור. 
+                        דבר כזה דורש שעות הרבה ומייגע את הנפש. מה שאני מבקש ממך אינו אלא זה: שתקרא את התרגום כולו בלי יחס אל המקור, כאילו נכתב
+                        לכתחילה עברית, ותאמר לי, אם הצלחתי למסור רעיונות המחבר בלשון עברית (כלומר, לא אשכנזית במלים עבריות) ברורה ומובנת, 
+                        שאין ריח זעה נודף ממנה. רק במקומות שמאיזו סיבה יתעורר ספק בלבבך, אם כך נאמר במקור, תוכל לעיין בזה, אם תחפוץ.
+                        
+                        מפני שהזמן קצר.... הייתי מבקש שתענני על זה לא במכתב, אלא תקראני אל הטלפון מחר בבוקר, ונקבע זמן ומקום לראיון.... </p>
+                </div>
+            </body>
+        </text>
+    </TEI> <TEI xml:id="LetterToBenAmi">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>מכתב לבן עמי</title>
+                    <author>אחד העם</author>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>אחד העם</persName>
+                        <settlement>לונדון</settlement>
+                        <date when="1915-12-27">27 דצמבר 915 (כ׳ טכת תרע״ו)</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>מ. רבינוביטש (בן־עמי)</persName>
+                        <settlement>ג'יניבה</settlement>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                
+                <p>קבלתי מכתבך <date> (מן ג׳ דחנוכה) </date> זה כשבועים, ובאותה העת הגיעה אלי שמועה,
+                    <persName> שאוסישקין </persName> קבל רשיון לשוב
+                    <placeName>לאודיסא</placeName> , ועל כן דחיתי תשובתי אליך עד שיבורר לי הדבר,
+                    כדי שארע מה לכתוב לך על ענינך...</p>
+                <p> ומצב אחינו <placeName>ברוסיא</placeName> הולך ורע, ושמועות נוראות באות משם בגוגע
+                    אל העתיד, ואגו אין לגו על מי להשען אלא על אבינו שבשמים. היהודים המערביים משתדלים
+                    בכל כוחם לעצום עיניהם ולבלתי ראות את הנעשה, יראים הם לנפשם, ושפלות רוחם עוברת כל
+                    גבול. בארץ הזאת לא רצו היהודים ״הגדולים״ אף לשמוע מה שסיפרו להם ע״ד המצב
+                    <placeName>ברוסיא.</placeName> אך כשאי אפשר היה עוד להצפין את הדבר (ביחוד
+                    מפני <placeName>ש מ א מ ר י ק א</placeName> התחילו להשמיע דברי תוכחה, ואמריקא
+                    עתה ״חשובה״ מאד בעיני הבריות פה), התחילו לדבר בשפה רפה, אבל עדיין לא רצו לייסד
+                    ועד לקיבוץ נדבות עד שנוסד תחילה ועד במזרח העיר ואסף בין היהודים המזרחיים פה
+                    ובערי המדינה סכום עצום בערך — אז נתביישו המערביים ויסדו גם הם ועד לצורך זה. —
+                    זוכר אתה את <persName>פרנסיס מונטיפיורי</persName> ? אותו איש, שהיו המנהיגים
+                    הציוניים נושאים אותו על כפים בימי הקונגרסים, דרש ברבים בשבוע שעבר, שבעת הזאת יש
+                    ליהודי אנגלי רק חובה אחת: להיות ״יהודי אנגלי אמתי״, כלומר שלא לשים לב ״למה
+                    שקוראים שאלת היהודים״, כי אם רק לצרכי המדינה הזאת בלבד. הוא קבע לעצמו
+                    ״פרינציפיון״, שלא לקחת חלק בשום ועד או אסיפה העוסקים בשאלות יהודיות. ובנוגע
+                    לציוניות היא מבין עתה מטרתה של תנועה זו וחושב לו לחובה להודיע, שהוא מתנגד לה בכל
+                    תוקף ואין לו דבר עמה וכר וכר. וסיים דבריו! ״ובזה נצליח לבטל את
+                    <foreign>האנטיסמיטיסמוס״.</foreign> השוטה הזה גילה מה שאחרים מכסים, אבל כולם
+                    אימת <foreign>האנטיסמיטיסמוס</foreign> עליהם ונכונים בשביל כך לזחול כתולעים
+                    וללחך עפר רגליהם של האחרים. אוי לנו, שאלה הם ״המנהיגים״ אשר קולם נשמע ודעתם
+                    מתקבלת בתור דעת ה אומה היהודית. ועל כן אין לבי ״מתחמם״ כשאני שומע את השאון
+                    בחוגים ידועים ע״ד הצורך ״להכין״ עצמנו לבוא בדרישות לפני הקונגרס הבא. יודע אני
+                    מראש, שדעתם של ה״גדולים״ הללו תהיה שקולה בעיני האחרים כנגד דעתם של ששים רבוא
+                    מישראל. ומה שהללו ידרשו יכולים אנו להבין עוד טרם שמענו.</p>
+                
+            </body>
+        </text>
+    </TEI>
+    
+    
+</teiCorpus>
